@@ -3,7 +3,7 @@
 $u = $PSScriptRoot
 Set-Location $u
 $log = "$u\vid7.log"
-$ff = 'C:\Users\getch\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0-full_build\bin\ffmpeg.exe'
+$ff = 'ffmpeg'
 function L($m) { Add-Content $log "$(Get-Date -f s) $m" }
 function Busy { (Get-Process kit -ErrorAction SilentlyContinue) -or (Get-CimInstance Win32_Process | ? { $_.CommandLine -match 'cells_|chain_|lf_real|hyperframes' }) }
 $R = "$u\results_irregular"

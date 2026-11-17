@@ -1,6 +1,6 @@
 @echo off
 cd /d %~dp0
-set FF=C:\Users\getch\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0-full_build\bin\ffmpeg.exe
+set FF=ffmpeg
 echo START > render4.log
 call npx tsc -p . >> render4.log 2>&1
 echo TSC_RC=%ERRORLEVEL% >> render4.log

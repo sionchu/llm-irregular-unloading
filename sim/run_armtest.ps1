@@ -4,7 +4,7 @@ Set-Location $u
 $log = "$u\armtest.log"
 function L($m) { Add-Content $log "$(Get-Date -f s) $m" }
 function Busy { (Get-Process kit -ErrorAction SilentlyContinue) -or (Get-CimInstance Win32_Process | ? { $_.CommandLine -match 'cells_|chain_|lf_real|hyperframes' }) }
-$ff = 'C:\Users\getch\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0-full_build\bin\ffmpeg.exe'
+$ff = 'ffmpeg'
 $name = if ($args.Count -gt 0) { $args[0] } else { 'vid_astra300' }
 $jobs = @{
   vid_rule300 = @{tr = 'agent_ikrule_300'; f = '2'; t = '2'; rt = '' }

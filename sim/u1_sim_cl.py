@@ -546,56 +546,80 @@ if SHOW:
         return True
 
     def pose_arm():
-        q_ = eoat.get_world_poses()
-        p_, qq = q_[0].numpy()[0], q_[1].numpy()[0]
-        Ew = _T(Rotation.from_quat([qq[1], qq[2], qq[3], qq[0]]).as_matrix(), p_)
-        tb = np.linalg.inv(SHOW["base"]) @ Ew @ SHOW["tool"]
-        x_, y_, z_, w_ = Rotation.from_matrix(tb[:3, :3]).as_quat()
-        q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=SHOW["q"],
-                                                      position_tolerance=2e-3, orientation_tolerance=2e-2)
-        if not ok:  # retry from a neutral seed (warm start can trap the solver after a fast move)
-            q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]),
-                                                          warm_start=np.array([0.0, -0.6, 0.9, 0.0, 0.6, 0.0]),
-                                                          position_tolerance=3e-3, orientation_tolerance=3e-2)
-        if not ok:
-            _best = None
-            for _sd in SHOW.setdefault("seeds", [np.array(v) for v in (
-                    [0.0, -0.6, 0.9, 0.0, 0.6, 0.0], [0.0, -1.0, 1.2, 0.0, -0.2, 0.0], [0.0, -0.3, 0.3, 0.0, 1.2, 0.0],
-                    [0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [-0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [1.6, -0.8, 1.0, 0.0, 0.5, 0.0],
-                    [-1.6, -0.8, 1.0, 0.0, 0.5, 0.0], [0.0, -0.9, 1.6, 0.0, -1.0, 0.0], [0.0, -0.6, 0.9, 1.5, 0.6, -1.5],
-                    [0.0, -0.6, 0.9, -1.5, 0.6, 1.5])]):
-                _q, _ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=_sd,
-                                                               position_tolerance=3e-3, orientation_tolerance=3e-2)
-                if _ok:
-                    _q = np.asarray(_q, float)
-                    _d = float(np.linalg.norm((_q - SHOW["q"] + np.pi) % (2 * np.pi) - np.pi))
-                    if _best is None or _d < _best[0]:
-                        _best = (_d, _q)
-            if _best is not None:
-                q, ok = _best[1], True
-        if ok and _arm_in_conv(np.asarray(q, float)):  # this branch puts a link into the conveyor: look for another branch
-            _alt = None
-            for _sd in SHOW.get("seeds") or [np.array(v) for v in ([0.0, -0.6, 0.9, 0.0, 0.6, 0.0], [0.0, -1.0, 1.2, 0.0, -0.2, 0.0], [0.0, -0.3, 0.3, 0.0, 1.2, 0.0], [0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [-0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [0.0, -0.9, 1.6, 0.0, -1.0, 0.0], [0.0, -0.6, 0.9, 1.5, 0.6, -1.5], [0.0, -0.6, 0.9, -1.5, 0.6, 1.5])]:
-                _q, _ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=_sd,
-                                                               position_tolerance=3e-3, orientation_tolerance=3e-2)
-                if _ok and not _arm_in_conv(np.asarray(_q, float)):
-                    _q = np.asarray(_q, float)
-                    _d = float(np.linalg.norm((_q - SHOW["q"] + np.pi) % (2 * np.pi) - np.pi))
-                    if _alt is None or _d < _alt[0]:
-                        _alt = (_d, _q)
-            if _alt is not None:
-                q = _alt[1]
-        lvl = 0 if ok else 1
-        if not ok:  # keep the arm on the pad: accept a small orientation error rather than freezing the arm in place
+        def _solve():
+            q_ = eoat.get_world_poses()
+            p_, qq = q_[0].numpy()[0], q_[1].numpy()[0]
+            Ew = _T(Rotation.from_quat([qq[1], qq[2], qq[3], qq[0]]).as_matrix(), p_)
+            tb = np.linalg.inv(SHOW["base"]) @ Ew @ SHOW["tool"]
+            x_, y_, z_, w_ = Rotation.from_matrix(tb[:3, :3]).as_quat()
             q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=SHOW["q"],
-                                                          position_tolerance=1e-2, orientation_tolerance=0.35)
-            lvl = 1 if ok else 2
-        for _ot in (1.0, 3.2):  # last resort: reach the pad position, accept a wrist orientation error (arm never left behind)
-            if ok:
-                break
-            q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=SHOW["q"],
-                                                          position_tolerance=1e-2, orientation_tolerance=_ot)
-            lvl = 3 if ok else 2
+                                                          position_tolerance=2e-3, orientation_tolerance=2e-2)
+            if not ok:  # retry from a neutral seed (warm start can trap the solver after a fast move)
+                q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]),
+                                                              warm_start=np.array([0.0, -0.6, 0.9, 0.0, 0.6, 0.0]),
+                                                              position_tolerance=3e-3, orientation_tolerance=3e-2)
+            if not ok:
+                _best = None
+                for _sd in SHOW.setdefault("seeds", [np.array(v) for v in (
+                        [0.0, -0.6, 0.9, 0.0, 0.6, 0.0], [0.0, -1.0, 1.2, 0.0, -0.2, 0.0], [0.0, -0.3, 0.3, 0.0, 1.2, 0.0],
+                        [0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [-0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [1.6, -0.8, 1.0, 0.0, 0.5, 0.0],
+                        [-1.6, -0.8, 1.0, 0.0, 0.5, 0.0], [0.0, -0.9, 1.6, 0.0, -1.0, 0.0], [0.0, -0.6, 0.9, 1.5, 0.6, -1.5],
+                        [0.0, -0.6, 0.9, -1.5, 0.6, 1.5])]):
+                    _q, _ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=_sd,
+                                                                   position_tolerance=3e-3, orientation_tolerance=3e-2)
+                    if _ok:
+                        _q = np.asarray(_q, float)
+                        _d = float(np.linalg.norm((_q - SHOW["q"] + np.pi) % (2 * np.pi) - np.pi))
+                        if _best is None or _d < _best[0]:
+                            _best = (_d, _q)
+                if _best is not None:
+                    q, ok = _best[1], True
+            if ok and _arm_in_conv(np.asarray(q, float)):  # this branch puts a link into the conveyor: look for another branch
+                _alt = None
+                for _sd in SHOW.get("seeds") or [np.array(v) for v in ([0.0, -0.6, 0.9, 0.0, 0.6, 0.0], [0.0, -1.0, 1.2, 0.0, -0.2, 0.0], [0.0, -0.3, 0.3, 0.0, 1.2, 0.0], [0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [-0.8, -0.6, 0.9, 0.0, 0.6, 0.0], [0.0, -0.9, 1.6, 0.0, -1.0, 0.0], [0.0, -0.6, 0.9, 1.5, 0.6, -1.5], [0.0, -0.6, 0.9, -1.5, 0.6, 1.5])]:
+                    _q, _ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=_sd,
+                                                                   position_tolerance=3e-3, orientation_tolerance=3e-2)
+                    if _ok and not _arm_in_conv(np.asarray(_q, float)):
+                        _q = np.asarray(_q, float)
+                        _d = float(np.linalg.norm((_q - SHOW["q"] + np.pi) % (2 * np.pi) - np.pi))
+                        if _alt is None or _d < _alt[0]:
+                            _alt = (_d, _q)
+                if _alt is not None:
+                    q = _alt[1]
+            lvl = 0 if ok else 1
+            if not ok:  # keep the arm on the pad: accept a small orientation error rather than freezing the arm in place
+                q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=SHOW["q"],
+                                                              position_tolerance=1e-2, orientation_tolerance=0.35)
+                lvl = 1 if ok else 2
+            for _ot in (1.0, 3.2):  # last resort: reach the pad position, accept a wrist orientation error (arm never left behind)
+                if ok:
+                    break
+                q, ok = SHOW["ks"].compute_inverse_kinematics("tool0", tb[:3, 3], np.array([w_, x_, y_, z_]), warm_start=SHOW["q"],
+                                                              position_tolerance=1e-2, orientation_tolerance=_ot)
+                lvl = 3 if ok else 2
+
+            return q, ok, lvl, tb
+
+        q, ok, lvl, tb = _solve()
+        if lvl >= 2 or (ok and _arm_in_conv(np.asarray(q, float))):
+            _y0 = float(SHOW["base"][1, 3])
+            _pad_y = float(eoat.get_world_poses()[0].numpy()[0][1])
+            _dir = 1.0 if _pad_y > _y0 else -1.0
+            _hit = None
+            for _k in range(1, 21):
+                for _dy in (_dir * 0.05 * _k, -_dir * 0.05 * _k):
+                    SHOW["base"][1, 3] = _y0 + _dy
+                    _r = _solve()
+                    if _r[2] <= 1 and not _arm_in_conv(np.asarray(_r[0], float)):
+                        _hit = (_dy, _r)
+                        break
+                if _hit:
+                    break
+            SHOW["base"][1, 3] = _y0
+            if _hit:
+                show_base(_y0 + _hit[0])
+                q, ok, lvl, tb = _hit[1]
+                lvl = 4 + lvl  # 4/5: solved after sliding the display base
         if ok:
             q = np.asarray(q, float)
             SHOW["q"] = SHOW["q"] + (q - SHOW["q"] + np.pi) % (2 * np.pi) - np.pi
