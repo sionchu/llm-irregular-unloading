@@ -1,0 +1,491 @@
+{
+ "seed": 202,
+ "method": "rule_noisy",
+ "n_boxes": 48,
+ "picked": 20,
+ "collapse_events": 6,
+ "boxes_fell": 8,
+ "left": [
+  1,
+  2,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  15,
+  18,
+  19,
+  21,
+  22,
+  24,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  35,
+  40,
+  41,
+  47,
+  48
+ ],
+ "on_floor": [
+  1,
+  2,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  18,
+  19,
+  22,
+  24,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  35,
+  40,
+  41,
+  47,
+  48
+ ],
+ "log": [
+  {
+   "id": 44,
+   "result": "picked",
+   "disturbed": [
+    47,
+    48
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 42,
+   "result": "picked",
+   "disturbed": [
+    41
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 47,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 47,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 45,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 48,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 48,
+   "result": "no_grip",
+   "disturbed": [
+    22,
+    25,
+    35,
+    38,
+    47
+   ],
+   "fell": [
+    35,
+    38,
+    47
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 43,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 46,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 38,
+   "result": "picked",
+   "disturbed": [
+    47
+   ],
+   "fell": [
+    47
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 36,
+   "result": "picked",
+   "disturbed": [
+    1,
+    3,
+    7,
+    8,
+    9,
+    18,
+    26,
+    29,
+    31
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 37,
+   "result": "picked",
+   "disturbed": [
+    41
+   ],
+   "fell": [
+    41
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 39,
+   "result": "picked",
+   "disturbed": [
+    40
+   ],
+   "fell": [
+    40
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 35,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 34,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 32,
+   "result": "picked",
+   "disturbed": [
+    21,
+    28
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 31,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 25,
+   "result": "picked",
+   "disturbed": [
+    22
+   ],
+   "fell": [
+    22
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 33,
+   "result": "picked",
+   "disturbed": [
+    4,
+    10,
+    19,
+    23,
+    24,
+    27,
+    30
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 28,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 29,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 30,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 21,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 26,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 27,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 22,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 18,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 24,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 23,
+   "result": "no_grip",
+   "disturbed": [
+    10
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 23,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 20,
+   "result": "picked",
+   "disturbed": [
+    17
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 17,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 17,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 9,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 14,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 14,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 15,
+   "result": "grip_lost",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 8,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 12,
+   "result": "no_grip",
+   "disturbed": [
+    15
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 12,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 2,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 2,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 7,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 4,
+   "result": "picked",
+   "disturbed": [
+    10,
+    19
+   ],
+   "fell": [
+    10,
+    19
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 5,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 5,
+   "result": "no_grip",
+   "disturbed": [
+    1,
+    3
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 6,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 13,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 3,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 3,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 11,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 11,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  }
+ ],
+ "decision_latency_s": 0.0031932001002132893
+}

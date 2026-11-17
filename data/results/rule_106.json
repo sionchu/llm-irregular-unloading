@@ -1,0 +1,204 @@
+{
+ "seed": 106,
+ "method": "rule",
+ "n_boxes": 29,
+ "picked": 24,
+ "collapse_events": 2,
+ "boxes_fell": 3,
+ "left": [
+  3,
+  4,
+  7,
+  9,
+  23
+ ],
+ "on_floor": [
+  3,
+  4,
+  7,
+  9,
+  23
+ ],
+ "log": [
+  {
+   "id": 29,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 28,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 25,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 26,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 27,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 21,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 20,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 22,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 23,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 24,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 18,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [
+    23
+   ],
+   "fell": [
+    23
+   ]
+  },
+  {
+   "id": 15,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 14,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 17,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 11,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 13,
+   "result": "picked",
+   "disturbed": [
+    4,
+    7,
+    9
+   ],
+   "fell": [
+    7,
+    9
+   ]
+  },
+  {
+   "id": 12,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 9,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 10,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 6,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 7,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 8,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 3,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 5,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 4,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 2,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  }
+ ],
+ "decision_latency_s": 0.000602399930357933
+}

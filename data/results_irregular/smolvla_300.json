@@ -1,0 +1,183 @@
+{
+ "seed": 300,
+ "method": "smolvla",
+ "n_boxes": 44,
+ "picked": 6,
+ "collapse_events": 3,
+ "boxes_fell": 9,
+ "left": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  28,
+  29,
+  30,
+  31,
+  33,
+  34,
+  35,
+  38,
+  39,
+  41,
+  43,
+  44
+ ],
+ "on_floor": [
+  9,
+  19,
+  25,
+  28,
+  30,
+  33,
+  39,
+  41,
+  44
+ ],
+ "log": [
+  {
+   "id": 40,
+   "result": "picked",
+   "disturbed": [
+    33,
+    37,
+    41,
+    43,
+    44
+   ],
+   "fell": [
+    43
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 42,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 37,
+   "result": "picked",
+   "disturbed": [
+    28,
+    33,
+    41,
+    44
+   ],
+   "fell": [
+    28,
+    33,
+    41,
+    44
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    541.6191864013672,
+    175.10842323303223
+   ]
+  },
+  {
+   "id": 32,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null
+  },
+  {
+   "id": 38,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    623.1021881103516,
+    179.91024255752563
+   ]
+  },
+  {
+   "id": 36,
+   "result": "picked",
+   "disturbed": [
+    9,
+    19,
+    23,
+    25,
+    30,
+    31,
+    39
+   ],
+   "fell": [
+    25,
+    30,
+    31,
+    39
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 38,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 27,
+   "result": "picked",
+   "disturbed": [
+    26
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    788.8045501708984,
+    316.3937830924988
+   ]
+  }
+ ],
+ "decision_latency_s": 0.6596629363484681
+}

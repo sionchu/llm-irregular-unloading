@@ -1,0 +1,239 @@
+{
+ "seed": 101,
+ "method": "smolvla",
+ "n_boxes": 34,
+ "picked": 22,
+ "collapse_events": 5,
+ "boxes_fell": 8,
+ "left": [
+  1,
+  4,
+  6,
+  9,
+  11,
+  17,
+  20,
+  23,
+  25,
+  31,
+  32,
+  34
+ ],
+ "on_floor": [
+  11,
+  17,
+  20,
+  23,
+  25,
+  31,
+  32,
+  34
+ ],
+ "log": [
+  {
+   "id": 27,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 29,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 28,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 33,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 26,
+   "result": "picked",
+   "disturbed": [
+    34
+   ],
+   "fell": []
+  },
+  {
+   "id": 21,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 22,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    545.6661987304688,
+    265.97840309143066
+   ]
+  },
+  {
+   "id": 30,
+   "result": "picked",
+   "disturbed": [
+    31,
+    32,
+    34
+   ],
+   "fell": [
+    31,
+    32,
+    34
+   ]
+  },
+  {
+   "id": 24,
+   "result": "picked",
+   "disturbed": [
+    25
+   ],
+   "fell": []
+  },
+  {
+   "id": 18,
+   "result": "picked",
+   "disturbed": [
+    25
+   ],
+   "fell": [
+    25
+   ]
+  },
+  {
+   "id": 15,
+   "result": "picked",
+   "disturbed": [
+    20
+   ],
+   "fell": [
+    20
+   ]
+  },
+  {
+   "id": 14,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 13,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 12,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 10,
+   "result": "picked",
+   "disturbed": [
+    23
+   ],
+   "fell": [
+    23
+   ]
+  },
+  {
+   "id": 8,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 17,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    605.0120162963867,
+    482.4652433395386
+   ]
+  },
+  {
+   "id": 9,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 7,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 11,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 2,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 3,
+   "result": "picked",
+   "disturbed": [
+    11,
+    17
+   ],
+   "fell": [
+    11,
+    17
+   ]
+  },
+  {
+   "id": 5,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    409.1162109375,
+    584.0090847015381
+   ]
+  }
+ ],
+ "decision_latency_s": 0.3539862142975575
+}

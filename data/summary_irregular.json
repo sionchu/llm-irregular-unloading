@@ -1,0 +1,136 @@
+{
+ "qwen3vl8b_img": {
+  "label": "B' Qwen3-VL-8B 로컬 (이미지만)",
+  "walls": 10,
+  "seeds": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "boxes": 433,
+  "unloaded": 40,
+  "unload_rate": 0.092,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 4.9,
+  "boxes_fell": 316,
+  "latency_s": [
+   92.86568580009043
+  ]
+ },
+ "rule": {
+  "label": "A 규칙 (3D 인식 좌표)",
+  "walls": 10,
+  "seeds": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "boxes": 433,
+  "unloaded": 181,
+  "unload_rate": 0.418,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 6.0,
+  "boxes_fell": 133,
+  "latency_s": [
+   0.0017951000481843948
+  ]
+ },
+ "rule_noisy": {
+  "label": "A' 규칙 + 인식 노이즈",
+  "walls": 10,
+  "seeds": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "boxes": 433,
+  "unloaded": 169,
+  "unload_rate": 0.39,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 5.9,
+  "boxes_fell": 135,
+  "latency_s": [
+   0.001378099899739027
+  ]
+ },
+ "rule_quad": {
+  "label": "rule_quad",
+  "walls": 10,
+  "seeds": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "boxes": 433,
+  "unloaded": 190,
+  "unload_rate": 0.439,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 6.1,
+  "boxes_fell": 140,
+  "latency_s": [
+   0.0017951000481843948
+  ]
+ },
+ "smolvla": {
+  "label": "C SmolVLA 미세조정 (폐루프)",
+  "walls": 5,
+  "seeds": [
+   300,
+   301,
+   302,
+   303,
+   304
+  ],
+  "boxes": 212,
+  "unloaded": 49,
+  "unload_rate": 0.231,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 4.4,
+  "boxes_fell": 62,
+  "latency_s": [
+   0.6596629363484681
+  ]
+ },
+ "_common": {
+  "seeds": [
+   300,
+   301,
+   302,
+   303,
+   304
+  ],
+  "qwen3vl8b_img": 0.099,
+  "rule": 0.415,
+  "rule_noisy": 0.434,
+  "rule_quad": 0.439,
+  "smolvla": 0.231
+ }
+}

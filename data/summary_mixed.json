@@ -1,0 +1,110 @@
+{
+ "qwen3vl8b_img": {
+  "label": "B' Qwen3-VL-8B 로컬 (이미지만)",
+  "walls": 10,
+  "seeds": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "boxes": 414,
+  "unloaded": 34,
+  "unload_rate": 0.082,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 4.5,
+  "boxes_fell": 312,
+  "latency_s": [
+   128.3484379001893
+  ]
+ },
+ "rule": {
+  "label": "A 규칙 (3D 인식 좌표)",
+  "walls": 10,
+  "seeds": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "boxes": 414,
+  "unloaded": 241,
+  "unload_rate": 0.582,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 5.1,
+  "boxes_fell": 88,
+  "latency_s": [
+   0.0022920998744666576
+  ]
+ },
+ "rule_noisy": {
+  "label": "A' 규칙 + 인식 노이즈",
+  "walls": 10,
+  "seeds": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "boxes": 414,
+  "unloaded": 211,
+  "unload_rate": 0.51,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 6.3,
+  "boxes_fell": 101,
+  "latency_s": [
+   0.001686600036919117
+  ]
+ },
+ "smolvla": {
+  "label": "C SmolVLA 미세조정 (폐루프)",
+  "walls": 5,
+  "seeds": [
+   200,
+   201,
+   202,
+   203,
+   204
+  ],
+  "boxes": 225,
+  "unloaded": 62,
+  "unload_rate": 0.276,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 5.6,
+  "boxes_fell": 56,
+  "latency_s": [
+   0.5429763750638813
+  ]
+ },
+ "_common": {
+  "seeds": [
+   200,
+   201,
+   202,
+   203,
+   204
+  ],
+  "qwen3vl8b_img": 0.076,
+  "rule": 0.529,
+  "rule_noisy": 0.418,
+  "smolvla": 0.276
+ }
+}

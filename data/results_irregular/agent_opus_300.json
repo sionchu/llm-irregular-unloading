@@ -1,0 +1,560 @@
+{
+ "seed": 300,
+ "method": "agent_opus",
+ "n_boxes": 44,
+ "picked": 25,
+ "collapse_events": 3,
+ "boxes_fell": 6,
+ "left": [
+  3,
+  5,
+  10,
+  11,
+  15,
+  17,
+  20,
+  21,
+  24,
+  25,
+  27,
+  31,
+  34,
+  35,
+  38,
+  41,
+  42,
+  43,
+  44
+ ],
+ "on_floor": [
+  3,
+  5,
+  10,
+  11,
+  15,
+  17,
+  20,
+  21,
+  24,
+  25,
+  27,
+  31,
+  34,
+  35,
+  38,
+  41,
+  42,
+  43,
+  44
+ ],
+ "log": [
+  {
+   "id": 39,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 36,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.04,
+   "base_y": -2.8
+  },
+  {
+   "id": 30,
+   "result": "picked",
+   "disturbed": [
+    31
+   ],
+   "fell": [
+    31
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 23,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.06,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 25,
+   "result": "handoff",
+   "kind": "cyl_v",
+   "reason": "Upright tube tilted 24\u00b0. The only grasp that passes is from the top, with pad coverage 0.43; the face is too small to reach 0.6 at any offset, so it could slip and fall. The front approach hits item 1"
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 44,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Top face: pad hits the container roof and covers only 0.51. Front face: 0.22 coverage and the sweep hits 37/40/41. 44 blocks 41 and rests on 37. The only grasp that passed (tube 9, top face) covers 0."
+  },
+  {
+   "id": 31,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 37,
+   "result": "picked",
+   "disturbed": [
+    28,
+    32,
+    33,
+    40,
+    41,
+    43
+   ],
+   "fell": [
+    33,
+    40,
+    41,
+    43
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.8
+  },
+  {
+   "id": 41,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 33,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 32,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 29,
+   "result": "picked",
+   "disturbed": [
+    21,
+    28,
+    40
+   ],
+   "fell": [
+    28,
+    40
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 40,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 40,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 28,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 9,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.8
+  },
+  {
+   "id": 43,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Box has fallen on its side (tilt 95\u00b0) at ~2 m height, 6.7 kg. Only collision-free grasp is top face with pad_coverage 0.51 (<0.6), high drop risk; all other exposed items are blocked by it or neighbou"
+  },
+  {
+   "id": 17,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Leaning 28\u00b0 box; every front/top grasp sweeps into bag 21 or box 14. Removing it unblocks 14 and 21."
+  },
+  {
+   "id": 21,
+   "result": "grip_lost",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_drop",
+   "face": "top",
+   "du": 0.0,
+   "dv": -0.015,
+   "base_y": -2.8
+  },
+  {
+   "id": 21,
+   "result": "handoff",
+   "kind": "bag",
+   "reason": "Bag already lost grip once. The only grasp that passes is front at 0.31 pad coverage, too low to hold a slipping bag. Every top grasp hits item 14, 12 or 22. It sits on 8 and blocks 14, so removing it"
+  },
+  {
+   "id": 8,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 14,
+   "result": "picked",
+   "disturbed": [
+    31
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 42,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Small 19x25 cm box: front and top grasps give only 31% pad coverage, and the pad sweep hits 27 or 38. It also blocks grasps on 26 and 38."
+  },
+  {
+   "id": 18,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 26,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": -0.04,
+   "base_y": -2.3
+  },
+  {
+   "id": 22,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 31,
+   "result": "handoff",
+   "kind": "cyl_h",
+   "reason": "Horizontal tube that has been knocked out of place and is leaning (93 deg), resting on 13 and 2. One grip already failed. The only grasp that passes is front, at coverage 0.55 on a curved face that sl"
+  },
+  {
+   "id": 13,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 2,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 27,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Narrow 0.19 m faces give only 0.43 pad coverage on a 9.2 kg box; top grasp collides with 35/38. High drop risk; it blocks 16/12 below."
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 12,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 6,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 7,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 4,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 38,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Narrow 19 cm, 9.6 kg box at 1.9 m against the left wall. To clear the wall, the pad has to shift sideways, which leaves pad coverage at 0.57 at best (front and top). That is a weak grip on a heavy ite"
+  },
+  {
+   "id": 35,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Top item of stack (19x30 cm) is too small for the 36x30 pad: best top grasp only covers 0.39 of the pad, and the front face covers 0.18 and hits item 34 and the wall. Risk of dropping it from 1.6 m."
+  },
+  {
+   "id": 34,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Small slab on top of the left-wall stack: top grasp sweeps into the container wall with coverage under 0.6, and the front face is too thin (coverage 0.18). Removing it frees heavy box 24."
+  },
+  {
+   "id": 24,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "13.6 kg box on top of the stack, only 24 cm wide. The best grasp that passes (front, du=+0.06) has pad_coverage 0.59, below the 0.6 limit. The other front offsets and the top face hit the container wa"
+  },
+  {
+   "id": 20,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Top of the left-wall stack: the face is smaller than the pad (coverage 0.43), and the front and top approaches hit the container wall or item 11. It has to come off before 11 can be picked."
+  },
+  {
+   "id": 11,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Leaning 50 deg; only passing grasp (top) has pad coverage 0.39 -> drop risk; front face unreachable/colliding. It also blocks sweeps for 5 and 15."
+  },
+  {
+   "id": 15,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Small 14x25x10 cm box on top of item 3: pad coverage 0.14-0.31 on every face and the pad sweep hits items 3/5. Removing it frees item 3 for a robot pick."
+  },
+  {
+   "id": 5,
+   "result": "handoff",
+   "kind": "cyl_v",
+   "reason": "Upright tube, top face 19x20 cm gives pad coverage 0.27 (<0.6), so it would likely slip and fall. It also blocks the pad sweep for boxes 3 and 10."
+  },
+  {
+   "id": 3,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Narrow box (0.19 m wide): pad coverage on both the front and top faces is only 0.43, under the 0.6 needed for a reliable grip, so it risks being dropped."
+  },
+  {
+   "id": 10,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Narrow box (14 cm) flush against the left container wall: every pad placement sweeps into the wall and pad coverage stays at or below 0.43."
+  }
+ ],
+ "agent": "opus",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "handed_off": [
+  3,
+  5,
+  10,
+  11,
+  15,
+  17,
+  20,
+  21,
+  24,
+  25,
+  27,
+  31,
+  34,
+  35,
+  38,
+  42,
+  43,
+  44
+ ],
+ "n_handoff": 18,
+ "agent_cost_usd": 4.6545814,
+ "decision_latency_s": 19.4,
+ "grip_model_env": "A"
+}

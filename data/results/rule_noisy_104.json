@@ -1,0 +1,185 @@
+{
+ "seed": 104,
+ "method": "rule_noisy",
+ "n_boxes": 28,
+ "picked": 13,
+ "collapse_events": 6,
+ "boxes_fell": 7,
+ "left": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  11,
+  13,
+  14,
+  15,
+  21,
+  23,
+  26
+ ],
+ "on_floor": [
+  3,
+  4,
+  13,
+  15,
+  21,
+  23,
+  26
+ ],
+ "log": [
+  {
+   "id": 27,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 28,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 25,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 24,
+   "result": "picked",
+   "disturbed": [
+    21
+   ],
+   "fell": [
+    21
+   ]
+  },
+  {
+   "id": 22,
+   "result": "picked",
+   "disturbed": [
+    26
+   ],
+   "fell": [
+    26
+   ]
+  },
+  {
+   "id": 20,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 21,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 18,
+   "result": "picked",
+   "disturbed": [
+    23
+   ],
+   "fell": [
+    23
+   ]
+  },
+  {
+   "id": 17,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [
+    5,
+    11,
+    12
+   ],
+   "fell": []
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 12,
+   "result": "picked",
+   "disturbed": [
+    5,
+    11
+   ],
+   "fell": [
+    11
+   ]
+  },
+  {
+   "id": 10,
+   "result": "picked",
+   "disturbed": [
+    15
+   ],
+   "fell": [
+    15
+   ]
+  },
+  {
+   "id": 9,
+   "result": "picked",
+   "disturbed": [
+    13,
+    14
+   ],
+   "fell": [
+    13,
+    14
+   ]
+  },
+  {
+   "id": 7,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 5,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 8,
+   "result": "no_grip",
+   "disturbed": [
+    6
+   ],
+   "fell": []
+  },
+  {
+   "id": 6,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 3,
+   "result": "grip_lost",
+   "disturbed": [
+    6,
+    8
+   ],
+   "fell": []
+  }
+ ],
+ "decision_latency_s": 0.0002749999985098839
+}

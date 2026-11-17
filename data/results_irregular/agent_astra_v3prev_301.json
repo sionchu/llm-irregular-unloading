@@ -1,0 +1,668 @@
+{
+ "seed": 301,
+ "method": "agent_astra_v3prev",
+ "n_boxes": 47,
+ "picked": 35,
+ "collapse_events": 2,
+ "boxes_fell": 6,
+ "left": [
+  4,
+  6,
+  8,
+  20,
+  21,
+  25,
+  26,
+  27,
+  34,
+  40,
+  45,
+  46
+ ],
+ "on_floor": [
+  4,
+  6,
+  8,
+  20,
+  21,
+  25,
+  26,
+  27,
+  34,
+  40,
+  45,
+  46
+ ],
+ "log": [
+  {
+   "id": 47,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 41,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.09,
+   "base_y": -2.3
+  },
+  {
+   "id": 41,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.3
+  },
+  {
+   "id": 36,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.08,
+   "base_y": -2.3
+  },
+  {
+   "id": 45,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Both checked top and front grasps are blocked: top sweep hits wall and roof; front sweep hits items 39 and 44 and wall. Remove this uppermost carton by hand to expose supported items safely."
+  },
+  {
+   "id": 40,
+   "result": "handoff",
+   "kind": "cyl_h",
+   "reason": "Top grasp collides with container roof; front grasp collides with items 33 and 42 and has only 0.27 pad coverage on a leaning tube. No safe tested grasp."
+  },
+  {
+   "id": 46,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Front and top grasps, including inward offsets, fail pad sweep checks against the container wall or neighbouring items. Removing this exposed item by hand also clears access to item 43."
+  },
+  {
+   "id": 43,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 42,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": -0.09,
+   "base_y": -1.8
+  },
+  {
+   "id": 33,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 31,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 30,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 24,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 19,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 23,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 17,
+   "result": "picked",
+   "disturbed": [
+    20
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 20,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Front and offset top grasps collide with the wall or item 12. Preview of removing item 12 predicts item 20 falling; remove item 20 by hand first."
+  },
+  {
+   "id": 12,
+   "result": "picked",
+   "disturbed": [
+    9
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 9,
+   "result": "picked",
+   "disturbed": [
+    8,
+    11,
+    14,
+    15,
+    16,
+    18,
+    21,
+    22,
+    28,
+    32,
+    35,
+    37,
+    38,
+    39,
+    44
+   ],
+   "fell": [
+    28,
+    32,
+    37,
+    39,
+    44
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 18,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 22,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 39,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 37,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.09,
+   "base_y": -2.3
+  },
+  {
+   "id": 32,
+   "result": "picked",
+   "disturbed": [
+    44
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 21,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Both checked top and front grasps are collision-blocked. Physics previews predict item 21 falls when removing either accessible overlying item 15 or 16; remove 21 by hand to protect it and unlock safe"
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 34,
+   "result": "handoff",
+   "kind": "cyl_h",
+   "reason": "Top grasp collides with container wall; front grasp collides with item 27 and wall. Narrow tilted tube has low pad coverage (0.43 top, 0.14 front), making edge-offset suction unsafe."
+  },
+  {
+   "id": 11,
+   "result": "picked",
+   "disturbed": [
+    28
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 28,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 14,
+   "result": "picked",
+   "disturbed": [
+    10,
+    15,
+    29,
+    38
+   ],
+   "fell": [
+    15
+   ],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.07,
+   "base_y": -2.8
+  },
+  {
+   "id": 10,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 10,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 27,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Both top and inward-offset front grasps collide with the container wall; remove the uppermost carton by hand to expose 26 and 25 safely."
+  },
+  {
+   "id": 18,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.1,
+   "base_y": -2.3
+  },
+  {
+   "id": 15,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.09,
+   "base_y": -2.8
+  },
+  {
+   "id": 29,
+   "result": "picked",
+   "disturbed": [
+    38
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 2,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 38,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 35,
+   "result": "no_grip",
+   "disturbed": [
+    1
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 5,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 35,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.08,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 4,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Front and top grasps collide with container wall, including maximum inward offset; no safe checked approach."
+  },
+  {
+   "id": 35,
+   "result": "picked",
+   "disturbed": [
+    6,
+    8
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 26,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Top grasps at center and inward offset collide with the container wall; inward front grasp also collides with items 25 and 44. Remove 26 by hand to open access to the tube above item 13."
+  },
+  {
+   "id": 44,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 13,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 25,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Front and top grasps, including inward edge offsets, collide with the container wall. Remove this upper box safely before picking its supports 7 and 3."
+  },
+  {
+   "id": 7,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 3,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 7,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  }
+ ],
+ "agent": "astra",
+ "model": "gpt-6-astra",
+ "effort": "low",
+ "handed_off": [
+  4,
+  20,
+  21,
+  25,
+  26,
+  27,
+  34,
+  40,
+  45,
+  46
+ ],
+ "n_handoff": 10,
+ "agent_cost_usd": 0,
+ "decision_latency_s": 80.13653846153846,
+ "grip_model_env": "A",
+ "preview": true,
+ "preview_drift_max": 0.1563,
+ "n_preview": 56
+}

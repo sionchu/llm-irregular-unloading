@@ -1,0 +1,372 @@
+{
+ "seed": 207,
+ "method": "qwen3vl8b_img",
+ "n_boxes": 40,
+ "picked": 4,
+ "collapse_events": 5,
+ "boxes_fell": 27,
+ "left": [
+  2,
+  4,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40
+ ],
+ "on_floor": [
+  4,
+  7,
+  8,
+  9,
+  11,
+  12,
+  13,
+  17,
+  18,
+  19,
+  21,
+  22,
+  24,
+  26,
+  27,
+  28,
+  30,
+  32,
+  36,
+  38
+ ],
+ "log": [
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [
+    7
+   ],
+   "fell": [
+    7
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 2,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 2,
+   "result": "grip_lost",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 3,
+   "result": "picked",
+   "disturbed": [
+    5,
+    8,
+    11,
+    13,
+    17,
+    18,
+    19,
+    21,
+    23,
+    27,
+    28,
+    30,
+    32,
+    35,
+    36,
+    37,
+    38,
+    40
+   ],
+   "fell": [
+    13,
+    18,
+    19,
+    21,
+    23,
+    27,
+    28,
+    30,
+    32,
+    35,
+    36,
+    37,
+    38,
+    40
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 4,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 4,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 5,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 6,
+   "result": "no_grip",
+   "disturbed": [
+    12,
+    16,
+    34
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 6,
+   "result": "no_grip",
+   "disturbed": [
+    16
+   ],
+   "fell": [
+    16
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 7,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 8,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 9,
+   "result": "grip_lost",
+   "disturbed": [
+    14,
+    20,
+    22,
+    25,
+    29,
+    31,
+    34
+   ],
+   "fell": [
+    14,
+    20,
+    25,
+    29,
+    31,
+    34
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 10,
+   "result": "grip_lost",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 11,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 12,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 13,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 14,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 15,
+   "result": "picked",
+   "disturbed": [
+    22,
+    24,
+    26,
+    33,
+    39
+   ],
+   "fell": [
+    22,
+    24,
+    26,
+    33,
+    39
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 16,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 16,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 17,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 18,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 19,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 20,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 21,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 22,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 23,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 24,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 25,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 26,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 27,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 28,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 29,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 30,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 31,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 32,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 33,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 34,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 35,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 36,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 37,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 38,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 39,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 40,
+   "result": "skip_displaced"
+  }
+ ],
+ "decision_latency_s": 123.81892169965431
+}

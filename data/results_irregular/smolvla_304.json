@@ -1,0 +1,313 @@
+{
+ "seed": 304,
+ "method": "smolvla",
+ "n_boxes": 39,
+ "picked": 17,
+ "collapse_events": 5,
+ "boxes_fell": 13,
+ "left": [
+  2,
+  3,
+  4,
+  6,
+  7,
+  8,
+  9,
+  14,
+  15,
+  17,
+  21,
+  22,
+  24,
+  26,
+  28,
+  30,
+  32,
+  34,
+  36,
+  37,
+  38,
+  39
+ ],
+ "on_floor": [
+  2,
+  3,
+  7,
+  9,
+  14,
+  17,
+  21,
+  26,
+  30,
+  32,
+  34,
+  36,
+  37,
+  38
+ ],
+ "log": [
+  {
+   "id": 29,
+   "result": "picked",
+   "disturbed": [
+    24,
+    28,
+    37,
+    39
+   ],
+   "fell": [
+    37
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 33,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 35,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 31,
+   "result": "picked",
+   "disturbed": [
+    34
+   ],
+   "fell": [
+    34
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 39,
+   "result": "no_grip",
+   "disturbed": [
+    3,
+    7,
+    9,
+    14,
+    17,
+    21,
+    24,
+    26,
+    28
+   ],
+   "fell": [
+    9,
+    14,
+    17,
+    21,
+    24,
+    28
+   ],
+   "kind": "cyl_h",
+   "grip_model": null
+  },
+  {
+   "id": 27,
+   "result": "picked",
+   "disturbed": [
+    32,
+    36,
+    38
+   ],
+   "fell": [
+    32,
+    36,
+    38
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 25,
+   "result": "picked",
+   "disturbed": [
+    18,
+    23,
+    26,
+    34
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 23,
+   "result": "picked",
+   "disturbed": [
+    22,
+    26
+   ],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null
+  },
+  {
+   "id": 18,
+   "result": "picked",
+   "disturbed": [
+    34
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 13,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 20,
+   "result": "picked",
+   "disturbed": [
+    22
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    509.67838287353516,
+    374.5425081253052
+   ]
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 11,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 10,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 12,
+   "result": "picked",
+   "disturbed": [
+    15,
+    22
+   ],
+   "fell": [
+    15,
+    22
+   ],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 15,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null
+  },
+  {
+   "id": 3,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 6,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 6,
+   "result": "grip_lost",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 3,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": 5,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    548.3618927001953,
+    528.0350732803345
+   ]
+  },
+  {
+   "id": null,
+   "result": "no_box_at_target",
+   "px": [
+    563.4176254272461,
+    547.9040622711182
+   ]
+  }
+ ],
+ "decision_latency_s": 0.5857797461346939
+}

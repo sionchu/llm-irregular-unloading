@@ -1,0 +1,203 @@
+{
+ "seed": 300,
+ "method": "agent_replay_v6show_catch_opus300",
+ "n_boxes": 44,
+ "picked": 6,
+ "collapse_events": 2,
+ "boxes_fell": 7,
+ "left": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  20,
+  21,
+  22,
+  24,
+  25,
+  26,
+  27,
+  29,
+  31,
+  34,
+  35,
+  38,
+  40,
+  41,
+  42,
+  43,
+  44
+ ],
+ "on_floor": [
+  25,
+  28,
+  32,
+  33,
+  41,
+  44
+ ],
+ "log": [
+  {
+   "id": 39,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 36,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.04,
+   "base_y": -2.8
+  },
+  {
+   "id": 30,
+   "result": "picked",
+   "disturbed": [
+    31
+   ],
+   "fell": [
+    31
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 23,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.06,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 25,
+   "result": "handoff",
+   "kind": "cyl_v",
+   "reason": "Upright tube tilted 24\u00b0. The only grasp that passes is from the top, with pad coverage 0.43; the face is too small to reach 0.6 at any offset, so it could slip and fall. The front approach hits item 1"
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 44,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Top face: pad hits the container roof and covers only 0.51. Front face: 0.22 coverage and the sweep hits 37/40/41. 44 blocks 41 and rests on 37. The only grasp that passed (tube 9, top face) covers 0."
+  },
+  {
+   "id": 31,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 37,
+   "result": "picked",
+   "disturbed": [
+    28,
+    32,
+    33,
+    40,
+    41,
+    43
+   ],
+   "fell": [
+    28,
+    32,
+    33,
+    40,
+    41,
+    43
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.8
+  },
+  {
+   "id": 41,
+   "result": "grip_lost",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  }
+ ],
+ "agent": "replay",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "handed_off": [
+  25,
+  44
+ ],
+ "n_handoff": 2,
+ "agent_cost_usd": 0,
+ "decision_latency_s": null,
+ "grip_model_env": "A",
+ "preview": false,
+ "preview_drift_max": null,
+ "n_preview": 0,
+ "catch": true,
+ "conveyed": {
+  "33": 1.76,
+  "28": 1.39,
+  "32": 1.59
+ },
+ "n_conveyed": 3,
+ "unloaded_total": 9
+}

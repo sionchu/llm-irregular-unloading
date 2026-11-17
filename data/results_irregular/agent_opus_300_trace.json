@@ -1,0 +1,4353 @@
+[
+ {
+  "t": 0,
+  "latency_s": 12.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 39,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 39,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 39,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.1024758,
+  "turns": 5,
+  "is_error": false,
+  "result": "I sent the robot to pick item 39 next: the upright 8 kg box at the top of the right-hand stack. The cell accepted it, and it runs after this turn ends.\n\n**Why item 39:** nothing rests on it, and it's tilted only about 1\u00b0. It's high on the pile, so taking it from the top down won't drag or topple any",
+  "tok_out": 712
+ },
+ {
+  "t": 1,
+  "latency_s": 16.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 36,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 36,
+     "face": "front",
+     "dv": 0.04
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 36,
+     "face": "front",
+     "du": 0,
+     "dv": 0.04,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 36,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.04,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.1163894,
+  "turns": 9,
+  "is_error": false,
+  "result": "I've committed the next action: picking item 36 by its front face. It's a 6.9 kg upright box on the right side of the upper stack with nothing on top of it. It runs once this turn ends.\n\n**Grasp:** the front face, centred left/right and 4 cm above the middle, with the base at -2.8.\n\n- **Why the offs",
+  "tok_out": 1243
+ },
+ {
+  "t": 2,
+  "latency_s": 25.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 23,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "front",
+     "dv": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 30,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 30,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.16118340000000003,
+  "turns": 18,
+  "is_error": false,
+  "result": "This turn's action is a grasp on item 30, a 2.6 kg box on the right side of the container. The cell accepted it, and it runs once this turn ends.\n\n- **Grasp:** the pad grips the box's top face at its centre, with the mobile base at y = -2.3. The pad covers the whole face and the check found no colli",
+  "tok_out": 2093
+ },
+ {
+  "t": 3,
+  "latency_s": 37.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "dv": 0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": 0.04,
+     "dv": 0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": -0.04,
+     "dv": 0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 23,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 23,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 23,
+     "face": "top",
+     "du": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 23,
+     "face": "front",
+     "du": 0.06,
+     "dv": 0.05
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 23,
+     "face": "top",
+     "du": 0.06,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 23,
+   "face": "top",
+   "du": 0.06,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.20834140000000004,
+  "turns": 25,
+  "is_error": false,
+  "result": "This turn I committed a pick of item 23 from above. It's a light box (1.1 kg) on the right side, about 1.2\u20131.4 m high. It runs once this turn ends.\n\n**The grasp:** the pad sits on the top face, shifted 6 cm right of centre, with the base at y = -2.3. It passed the check with no collisions, covers 71",
+  "tok_out": 3142
+ },
+ {
+  "t": 4,
+  "latency_s": 36.0,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": 0.03,
+     "dv": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": -0.02,
+     "dv": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 19,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 19,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 25,
+     "reason": "Upright tube tilted 24\u00b0. The only grasp that passes is from the top, with pad coverage 0.43; the face is too small to reach 0.6 at any offset, so it could slip and fall. The front approach hits item 17. Removing it also opens the top approach to item 19."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 25,
+   "reason": "Upright tube tilted 24\u00b0. The only grasp that passes is from the top, with pad coverage 0.43; the face is too small to reach 0.6 at any offset, so it could slip and fall. The front approach hits item 17. Removing it also opens the top approach to item 19."
+  },
+  "cost_usd": 0.19860339999999999,
+  "turns": 23,
+  "is_error": false,
+  "result": "I handed off item 25 (a tube leaning 24\u00b0) to a person instead of picking it, and the cell accepted the hand-off.\n\n- **Why not pick it:** The only grasp that passed the checks takes it from the top, but the pad covers just 43% of that face (below the 60% needed for a good grip). The face is too small",
+  "tok_out": 3036
+ },
+ {
+  "t": 5,
+  "latency_s": 23.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 19,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front",
+     "dv": 0.07
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 19,
+     "face": "front",
+     "dv": 0.05,
+     "du": -0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 19,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 19,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 19,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.1464414,
+  "turns": 17,
+  "is_error": false,
+  "result": "The pick for this turn is item 19, gripped from the top at the centre of the face with the base at y = -2.3. The cell accepted it, and it runs when this turn ends.\n\n**Why item 19:** I checked 14 grasps, and this was the only one that passed. The pad covers the whole face, nothing is resting on item ",
+  "tok_out": 1878
+ },
+ {
+  "t": 6,
+  "latency_s": 30.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 44,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front",
+     "dv": 0.08
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 44,
+     "reason": "Top face: pad hits the container roof and covers only 0.51. Front face: 0.22 coverage and the sweep hits 37/40/41. 44 blocks 41 and rests on 37. The only grasp that passed (tube 9, top face) covers 0.43, so it would likely slip and fall."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 44,
+   "reason": "Top face: pad hits the container roof and covers only 0.51. Front face: 0.22 coverage and the sweep hits 37/40/41. 44 blocks 41 and rests on 37. The only grasp that passed (tube 9, top face) covers 0.43, so it would likely slip and fall."
+  },
+  "cost_usd": 0.16980119999999999,
+  "turns": 20,
+  "is_error": false,
+  "result": "I handed item 44 to a person. No robot grasp on it was safe, and the only grasp anywhere that passed the check was likely to drop its item.\n\n- **Item 44 (small box on top of the stack):**\n  - Gripping from above, the pad hits the container roof and covers only 51% of the face.\n  - Gripping from the ",
+  "tok_out": 2415
+ },
+ {
+  "t": 7,
+  "latency_s": 39.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "dv": 0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": 0.04,
+     "dv": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": -0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": -0.03,
+     "dv": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0.08,
+     "dv": -0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 29,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 31,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -1.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 31,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  "cost_usd": 0.21551140000000002,
+  "turns": 27,
+  "is_error": false,
+  "result": "This turn's action is a grasp on item 31, the horizontal tube that fell during an earlier pick. The cell accepted it and it runs when this turn ends. It's a borderline grip, not a clean one.\n\n**The grasp:** top face, centred (du = 0, dv = 0), mobile base at y = -1.8. It passed inverse kinematics and",
+  "tok_out": 3495
+ },
+ {
+  "t": 8,
+  "latency_s": 22.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front",
+     "du": 0.05,
+     "dv": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": 0.06,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 37,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.1353094,
+  "turns": 14,
+  "is_error": false,
+  "result": "This turn's action is set: the robot will pick **item 37** (a 4.5 kg box near the top of the stack) by its front face. The pad sits 6 cm above the face centre (dv = 0.06) and the mobile base is at y = -2.8. It runs after this turn ends.\n\n- **Why 37:** it was the only grasp that passed out of the 11 ",
+  "tok_out": 1779
+ },
+ {
+  "t": 9,
+  "latency_s": 11.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 41,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 41,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 41,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.0840936,
+  "turns": 5,
+  "is_error": false,
+  "result": "I committed a front-face pick of bag 41 (centre of the face, base at y = -2.8). It runs when this turn ends.\n\n**Why 41 first:** Bag 41 and box 33 both fell forward when 37 was picked, and now hang past the container mouth (41 at y = -0.49, 33 at y = -0.25). Items that far out are the ones most likel",
+  "tok_out": 708
+ },
+ {
+  "t": 10,
+  "latency_s": 9.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 33,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.0748548,
+  "turns": 4,
+  "is_error": false,
+  "result": "I sent a top grasp on item 33 to the robot. It will run after this turn ends.\n\n**Why this item:** Item 33 is the box that fell to the floor near the door (y = -0.62) when item 37 was picked. It is upside down but its top face is still flat, and nothing rests on it, so lifting it can't drag or knock ",
+  "tok_out": 469
+ },
+ {
+  "t": 11,
+  "latency_s": 13.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 29,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 32,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 32,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.0844068,
+  "turns": 5,
+  "is_error": false,
+  "result": "This turn's action is a top grasp on bag 32, centred on its top face with the base at y = -2.3. The cell accepted it and it will run once this turn ends.\n\n**Why this one:** bag 32 is the highest loose item, nothing rests on it, and it seems to sit on top of box 29. The scene doesn't list 32 on 29, b",
+  "tok_out": 810
+ },
+ {
+  "t": 12,
+  "latency_s": 12.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 29,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 29,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 29,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.0835204,
+  "turns": 5,
+  "is_error": false,
+  "result": "I committed a front-face pick of item 29, a 8.5 kg box near the top of the stack, with the base at y = -2.8. It runs after this turn.\n\n**Why 29:**\n- **Check result:** the grasp passed every test. The pad sits at the face centre and covers the whole face (coverage 1.0), every waypoint is reachable, a",
+  "tok_out": 841
+ },
+ {
+  "t": 13,
+  "latency_s": 11.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 28,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 40,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 40,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.07769279999999999,
+  "turns": 5,
+  "is_error": false,
+  "result": "This turn's action is a top-face pick of box 40, the tilted box lying near the door. The cell accepted it, and it runs after this turn ends.\n\n- **Why 40:** It and tube 28 both fell during the last few picks and now sit in the doorway. The grasp on 40 passed every check: pad centred on the top face, ",
+  "tok_out": 670
+ },
+ {
+  "t": 14,
+  "latency_s": 12.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 40,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 40,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.08319599999999999,
+  "turns": 6,
+  "is_error": false,
+  "result": "This turn's action is a top-face grasp on item 40, centred on the face (du/dv 0/0) with the base at y = -2.8. The cell accepted it and it runs after this turn, so we don't know yet whether it picks.\n\n- **Why item 40:** it fell out of the stack and lies on the floor near the door, nothing rests on it",
+  "tok_out": 823
+ },
+ {
+  "t": 15,
+  "latency_s": 25.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 28,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0.1
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 28,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 28,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.1358198,
+  "turns": 15,
+  "is_error": false,
+  "result": "I've committed this turn's action: picking item 28 from the top, with the pad centred and the base at y = \u22122.8. The cell accepted it, and it runs once I end the turn.\n\n**Risk:** pad coverage is only 0.47, below the 0.6 needed for a good grip, so this may come back as no_grip. A miss here costs littl",
+  "tok_out": 1965
+ },
+ {
+  "t": 16,
+  "latency_s": 22.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "front",
+     "dv": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 9,
+     "face": "front",
+     "dv": 0.06,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 9,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.12039460000000002,
+  "turns": 13,
+  "is_error": false,
+  "result": "I sent a pick for item 9, the upright tube on the right at about 0.62 m height. The cell accepted it, and it runs after this turn ends, so I don't know yet whether it worked. The grasp is on the front face, 6 cm above centre, with the base at y = -2.8.\n\n**Risk:** pad coverage is 0.59, just under the",
+  "tok_out": 1655
+ },
+ {
+  "t": 17,
+  "latency_s": 26.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top",
+     "dv": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 43,
+     "face": "top",
+     "dv": -0.04
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 43,
+     "reason": "Box has fallen on its side (tilt 95\u00b0) at ~2 m height, 6.7 kg. Only collision-free grasp is top face with pad_coverage 0.51 (<0.6), high drop risk; all other exposed items are blocked by it or neighbours."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 43,
+   "reason": "Box has fallen on its side (tilt 95\u00b0) at ~2 m height, 6.7 kg. Only collision-free grasp is top face with pad_coverage 0.51 (<0.6), high drop risk; all other exposed items are blocked by it or neighbours."
+  },
+  "cost_usd": 0.1449094,
+  "turns": 17,
+  "is_error": false,
+  "result": "I handed box 43 to a person instead of having the robot pick it.\n\nOnly one grasp passed the checks: from above at about 2 m, with the base close to the door. But the pad would only cover 51% of the face, below the 0.6 needed for a firm grip. On a 6.7 kg box that has fallen on its side, that makes a ",
+  "tok_out": 2244
+ },
+ {
+  "t": 18,
+  "latency_s": 27.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0.08,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0.08
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top",
+     "du": 0,
+     "dv": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0.14
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 17,
+     "reason": "Leaning 28\u00b0 box; every front/top grasp sweeps into bag 21 or box 14. Removing it unblocks 14 and 21."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 17,
+   "reason": "Leaning 28\u00b0 box; every front/top grasp sweeps into bag 21 or box 14. Removing it unblocks 14 and 21."
+  },
+  "cost_usd": 0.1441402,
+  "turns": 17,
+  "is_error": false,
+  "result": "I handed box 17 to a person this turn, because no grasp I tried passed the check.\n\nBox 17 is tipped over 28\u00b0 with nothing resting on it, but every grasp I tried hit a neighbour: bag 21 on its left, and also box 14 or box 22 depending on angle and offset. Shifting the pad didn't help; bag 21 was stil",
+  "tok_out": 2284
+ },
+ {
+  "t": 19,
+  "latency_s": 22.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "du": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top",
+     "du": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.015
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.015,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 21,
+   "face": "top",
+   "du": 0.0,
+   "dv": -0.015,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.11309579999999998,
+  "turns": 11,
+  "is_error": false,
+  "result": "I committed a top-face suction pick of item 21, a 1.0 kg bag lying loose on top of box 8. It runs after this turn ends.\n\n- **Grasp:** top face, du 0, dv \u22120.015 m (shifted 1.5 cm toward \u2212x), base at y = \u22122.8.\n- **Check result:** passed, with no sweep collisions, IK reachable and pad coverage 0.86. No",
+  "tok_out": 1667
+ },
+ {
+  "t": 20,
+  "latency_s": 25.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "du": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 21,
+     "reason": "Bag already lost grip once. The only grasp that passes is front at 0.31 pad coverage, too low to hold a slipping bag. Every top grasp hits item 14, 12 or 22. It sits on 8 and blocks 14, so removing it by hand frees both."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 21,
+   "reason": "Bag already lost grip once. The only grasp that passes is front at 0.31 pad coverage, too low to hold a slipping bag. Every top grasp hits item 14, 12 or 22. It sits on 8 and blocks 14, so removing it by hand frees both."
+  },
+  "cost_usd": 0.129863,
+  "turns": 14,
+  "is_error": false,
+  "result": "I handed bag 21 to a person this turn because I found no safe way for the robot to pick it.\n\n- **Bag 21:** Its last pick lost grip. The only grasp that passed the check was on its front face, but the pad covered just 31% of it, which is too little to hold a bag that slips. Every grasp from the top h",
+  "tok_out": 2016
+ },
+ {
+  "t": 21,
+  "latency_s": 16.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 8,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 8,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 8,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.0904266,
+  "turns": 8,
+  "is_error": false,
+  "result": "I committed this turn's action: robot pick of item 8 (20.6 kg box) from its top face at the centre, base at y = -2.8. The cell accepted it and it runs once this turn ends.\n\n**Why item 8:** nothing rests on it and the grasp check passed cleanly. The pad fully covers the top face (1.0), reach is fine ",
+  "tok_out": 1158
+ },
+ {
+  "t": 22,
+  "latency_s": 19.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 14,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 14,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.1032144,
+  "turns": 11,
+  "is_error": false,
+  "result": "I've sent the action for this turn: **item 14, gripped from the top, base at y = -2.3**. It runs once this turn ends.\n\nThere's a real risk it slips. Pad coverage is 0.59, just under the 0.6 grip threshold. The box's top face is only 24 cm wide and the pad is 36 cm, so moving the pad can't fix that. ",
+  "tok_out": 1494
+ },
+ {
+  "t": 23,
+  "latency_s": 22.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 42,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top",
+     "du": 0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -1.8
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 42,
+     "reason": "Small 19x25 cm box: front and top grasps give only 31% pad coverage, and the pad sweep hits 27 or 38. It also blocks grasps on 26 and 38."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 42,
+   "reason": "Small 19x25 cm box: front and top grasps give only 31% pad coverage, and the pad sweep hits 27 or 38. It also blocks grasps on 26 and 38."
+  },
+  "cost_usd": 0.11235980000000001,
+  "turns": 12,
+  "is_error": false,
+  "result": "I handed item 42 to a person because the robot had no safe way to take it. It's a small 19 \u00d7 25 cm box near the top of the left stack, and the hand-off was accepted.\n\n**Why no robot pick:** 42 was one of the obvious next picks, since it's high up with nothing resting on it, but both of its grasps fa",
+  "tok_out": 1752
+ },
+ {
+  "t": 24,
+  "latency_s": 18.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 18,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 18,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.09511539999999999,
+  "turns": 10,
+  "is_error": false,
+  "result": "I've queued a pick of item 18, a small 0.7 kg box, gripped from its top face with the base at y = -2.3. It runs after this turn ends.\n\n**Risk:** the suction pad covers only 35% of that face, well under the 0.6 you set for a good grip, so it could slip. I went ahead because it was the only grasp that",
+  "tok_out": 1401
+ },
+ {
+  "t": 25,
+  "latency_s": 23.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top",
+     "du": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top",
+     "dv": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top",
+     "dv": -0.04
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 26,
+     "face": "top",
+     "dv": -0.04,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 26,
+   "face": "top",
+   "du": 0.0,
+   "dv": -0.04,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.1185422,
+  "turns": 15,
+  "is_error": false,
+  "result": "I committed a top grasp on item 26, the lying tube at the top of the left-centre stack. It runs when this turn ends. The settings are 4 cm sideways from the face centre (dv = \u22120.04) with the mobile base at y = \u22122.3.\n\n**Risk:** the pad covers only 0.57 of the face, just under the 0.6 good-grip level,",
+  "tok_out": 1828
+ },
+ {
+  "t": 26,
+  "latency_s": 11.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 22,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 22,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.0600934,
+  "turns": 4,
+  "is_error": false,
+  "result": "I sent the pick for item 22, a flat box on top of box 16. The robot will grip its top face from above and lift it straight up. The move runs after this turn ends, so we won't know if the pick worked until the next scene update.\n\nThe check passed with no problems: the pad fully covers the 59 \u00d7 40 cm ",
+  "tok_out": 663
+ },
+ {
+  "t": 27,
+  "latency_s": 25.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front",
+     "du": 0.08
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 31,
+     "reason": "Horizontal tube that has been knocked out of place and is leaning (93 deg), resting on 13 and 2. One grip already failed. The only grasp that passes is front, at coverage 0.55 on a curved face that slips; the top grasp hits the container wall. It blocks 13, 2 and 7, so taking it out by hand clears the right side."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 31,
+   "reason": "Horizontal tube that has been knocked out of place and is leaning (93 deg), resting on 13 and 2. One grip already failed. The only grasp that passes is front, at coverage 0.55 on a curved face that slips; the top grasp hits the container wall. It blocks 13, 2 and 7, so taking it out by hand clears the right side."
+  },
+  "cost_usd": 0.1147568,
+  "turns": 12,
+  "is_error": false,
+  "result": "I handed item 31 (the lying tube) off to a person. No robot pick this turn.\n\n**Why:** Item 31 is a 2.9 kg tube that has been knocked out of place, lying on boxes 13 and 2 and leaning about 93\u00b0. A grip on it has already failed once. The only grasp that passed the check was on its front face, with the",
+  "tok_out": 2119
+ },
+ {
+  "t": 28,
+  "latency_s": 12.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 13,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 13,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 13,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.0656716,
+  "turns": 6,
+  "is_error": false,
+  "result": "This turn's action is a top-face pick of item 13, the flat 4.5 kg box resting on boxes 2 and 7. The cell accepted it, and the robot will run it when the turn ends.\n\n- **Item 13 (chosen):** The grasp passed every check. The pad covers the whole face (coverage 1.0), the pad's path hits nothing, the ar",
+  "tok_out": 849
+ },
+ {
+  "t": 29,
+  "latency_s": 13.0,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 2,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 2,
+     "face": "front",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 2,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.06124039999999999,
+  "turns": 5,
+  "is_error": false,
+  "result": "I sent the robot to pick item 2 next. It's a 6.8 kg carton on the floor at the right side, picked from its front face at the centre with the base at y = -2.3. The grasp passed the cell check, and the robot will run it after this turn ends.\n\n**Why item 2:**\n- **Clear:** nothing rests on it, it isn't ",
+  "tok_out": 814
+ },
+ {
+  "t": 30,
+  "latency_s": 24.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "dv": -0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "du": -0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 27,
+     "reason": "Narrow 0.19 m faces give only 0.43 pad coverage on a 9.2 kg box; top grasp collides with 35/38. High drop risk; it blocks 16/12 below."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 27,
+   "reason": "Narrow 0.19 m faces give only 0.43 pad coverage on a 9.2 kg box; top grasp collides with 35/38. High drop risk; it blocks 16/12 below."
+  },
+  "cost_usd": 0.0967012,
+  "turns": 10,
+  "is_error": false,
+  "result": "This turn's action was a hand-off: item 27 (a 9.2 kg box) goes to a person. A front grasp on it did pass the robot's checks, but I chose not to use it.\n\n- **Why I didn't pick it:** the box is only 19 cm wide, so the suction pad would cover just 43% of its front face (good grip needs about 60%). That",
+  "tok_out": 1762
+ },
+ {
+  "t": 31,
+  "latency_s": 10.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 16,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 16,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.0505176,
+  "turns": 4,
+  "is_error": false,
+  "result": "I chose item 16 for this turn and the cell accepted the grasp. It runs after this turn ends, so it hasn't been picked yet.\n\n- **Grasp:** the top face, with the pad centred on it and the mobile base at y = -2.3.\n- **Check result:** it passed. The arm can reach every waypoint, the pad's path hits noth",
+  "tok_out": 555
+ },
+ {
+  "t": 32,
+  "latency_s": 13.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 12,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 12,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.060752600000000004,
+  "turns": 6,
+  "is_error": false,
+  "result": "I committed this turn's pick: **item 12**, gripped on its top face at the centre with the base at y = -2.3. The check passed with full pad coverage, no collisions and nothing resting on the box. It runs once this turn ends.\n\n- **Why item 12:** it sits loose on top of item 6 at about 0.89 m, so pulli",
+  "tok_out": 845
+ },
+ {
+  "t": 33,
+  "latency_s": 11.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 6,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 6,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 6,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": 0.0556812,
+  "turns": 5,
+  "is_error": false,
+  "result": "I committed item 6 (a 5.5 kg box) as this turn's pick, using its front face at the centre with the mobile base at y = -2.8. The cell accepted it, and it will run when this turn ends.\n\n- **Why item 6:** The check found no problems: no inverse kinematics issues, no collisions in the pad sweep, and 0.7",
+  "tok_out": 790
+ },
+ {
+  "t": 34,
+  "latency_s": 20.4,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front",
+     "du": 0.09
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 1,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 1,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 1,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.085424,
+  "turns": 10,
+  "is_error": false,
+  "result": "I chose bag 1, gripped from the top at the face centre with the base at y = -2.3. It passed the check: the pad covers the whole face, nothing collides, and nothing rests on it. The pick is accepted and runs when this turn ends.\n\nGrasps I checked and passed over:\n- **Box 38** (9.6 kg, top of the left",
+  "tok_out": 1496
+ },
+ {
+  "t": 35,
+  "latency_s": 29.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front",
+     "du": 0.08
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "dv": -0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "dv": 0.04
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 7,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 7,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.11174500000000001,
+  "turns": 12,
+  "is_error": false,
+  "result": "I committed this turn's action: a top grasp on item 7 (the 5.5 kg box, centre of its face, base at y = -2.3). It runs when this turn ends.\n\nThere's a real risk it slips. Only 43% of the pad covers the top face, below the 0.6 guideline for a good grip, and the box is heavy. I still took it because it",
+  "tok_out": 2340
+ },
+ {
+  "t": 36,
+  "latency_s": 13.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 4,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": 0.057502,
+  "turns": 6,
+  "is_error": false,
+  "result": "This turn's action is picking item 4, a carton on the floor, by its top face with the base at y = -2.3. The cell accepted it, and it runs when this turn ends.\n\n**Why item 4:** It passed the reachability and collision checks, with nothing resting on it. Pulling it out won't drag or tip anything else.",
+  "tok_out": 944
+ },
+ {
+  "t": 37,
+  "latency_s": 15.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "front",
+     "du": 0.09
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top",
+     "du": 0.09
+    },
+    "ok": true
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 38,
+     "reason": "Narrow 19 cm, 9.6 kg box at 1.9 m against the left wall. To clear the wall, the pad has to shift sideways, which leaves pad coverage at 0.57 at best (front and top). That is a weak grip on a heavy item high up, with a real risk of it falling."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 38,
+   "reason": "Narrow 19 cm, 9.6 kg box at 1.9 m against the left wall. To clear the wall, the pad has to shift sideways, which leaves pad coverage at 0.57 at best (front and top). That is a weak grip on a heavy item high up, with a real risk of it falling."
+  },
+  "cost_usd": 0.0639028,
+  "turns": 7,
+  "is_error": false,
+  "result": "I handed item 38 to a person instead of picking it. I judged that a robot pick risked dropping it.\n\n- **Why:** Item 38 is a 9.6 kg box, 19 cm wide, sitting about 1.9 m up against the left container wall.\n- **What I checked:** With the pad centred on the box, both the front and top grasps hit the wal",
+  "tok_out": 1138
+ },
+ {
+  "t": 38,
+  "latency_s": 16.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 35,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 35,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 35,
+     "face": "top",
+     "du": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 35,
+     "reason": "Top item of stack (19x30 cm) is too small for the 36x30 pad: best top grasp only covers 0.39 of the pad, and the front face covers 0.18 and hits item 34 and the wall. Risk of dropping it from 1.6 m."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 35,
+   "reason": "Top item of stack (19x30 cm) is too small for the 36x30 pad: best top grasp only covers 0.39 of the pad, and the front face covers 0.18 and hits item 34 and the wall. Risk of dropping it from 1.6 m."
+  },
+  "cost_usd": 0.06910899999999999,
+  "turns": 9,
+  "is_error": false,
+  "result": "I handed item 35 to a person instead of picking it. The hand-off was accepted.\n\n**Why:** Item 35 is a small box (19 \u00d7 30 cm, 1.3 kg) sitting on top of the stack at about 1.6 m. That's smaller than the 36 \u00d7 30 cm pad, so the pad can't cover enough of any face to grip well:\n- **Top face, centred:** th",
+  "tok_out": 1245
+ },
+ {
+  "t": 39,
+  "latency_s": 18.4,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 34,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 34,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 34,
+     "face": "top",
+     "du": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 34,
+     "reason": "Small slab on top of the left-wall stack: top grasp sweeps into the container wall with coverage under 0.6, and the front face is too thin (coverage 0.18). Removing it frees heavy box 24."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 34,
+   "reason": "Small slab on top of the left-wall stack: top grasp sweeps into the container wall with coverage under 0.6, and the front face is too thin (coverage 0.18). Removing it frees heavy box 24."
+  },
+  "cost_usd": 0.0711518,
+  "turns": 9,
+  "is_error": false,
+  "result": "I handed item 34 to a person. It's the thin box on top of the left-wall stack, and none of the grasps I checked on it passed:\n\n- **Top face:** the pad sweep hits the container wall, and pad coverage is only 0.57\u20130.59 (below the 0.6 needed for a good grip).\n- **Front face:** the face is only about 10",
+  "tok_out": 1357
+ },
+ {
+  "t": 40,
+  "latency_s": 19.0,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front",
+     "du": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front",
+     "du": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "top",
+     "du": 0.03
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 24,
+     "reason": "13.6 kg box on top of the stack, only 24 cm wide. The best grasp that passes (front, du=+0.06) has pad_coverage 0.59, below the 0.6 limit. The other front offsets and the top face hit the container wall. A drop from 0.9-1.45 m is a big risk."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 24,
+   "reason": "13.6 kg box on top of the stack, only 24 cm wide. The best grasp that passes (front, du=+0.06) has pad_coverage 0.59, below the 0.6 limit. The other front offsets and the top face hit the container wall. A drop from 0.9-1.45 m is a big risk."
+  },
+  "cost_usd": 0.0691224,
+  "turns": 8,
+  "is_error": false,
+  "result": "I handed item 24 to a person instead of picking it with the robot.\n\n- **Why:** item 24 is a heavy box (13.6 kg) sitting on top of the stack, and the pad can't get a firm hold on it. The only grasp that passed the check (front face, shifted 6 cm right) had pad coverage of 0.59, just under the 0.6 nee",
+  "tok_out": 1368
+ },
+ {
+  "t": 41,
+  "latency_s": 14.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 20,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 20,
+     "face": "top",
+     "du": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "front",
+     "du": 0.05
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 20,
+     "reason": "Top of the left-wall stack: the face is smaller than the pad (coverage 0.43), and the front and top approaches hit the container wall or item 11. It has to come off before 11 can be picked."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 20,
+   "reason": "Top of the left-wall stack: the face is smaller than the pad (coverage 0.43), and the front and top approaches hit the container wall or item 11. It has to come off before 11 can be picked."
+  },
+  "cost_usd": 0.05465039999999999,
+  "turns": 7,
+  "is_error": false,
+  "result": "I handed item 20 to a person; the robot didn't pick anything this turn.\n\n**Why:** Item 20 is a 24 \u00d7 26 cm box sitting on top of the stack against the left wall, on top of item 11. Its faces are smaller than the 36 \u00d7 30 cm pad, so the pad only covers 43% of the face, below the 0.6 needed for a good g",
+  "tok_out": 1035
+ },
+ {
+  "t": 42,
+  "latency_s": 18.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 5,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 5,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 11,
+     "reason": "Leaning 50 deg; only passing grasp (top) has pad coverage 0.39 -> drop risk; front face unreachable/colliding. It also blocks sweeps for 5 and 15."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 11,
+   "reason": "Leaning 50 deg; only passing grasp (top) has pad coverage 0.39 -> drop risk; front face unreachable/colliding. It also blocks sweeps for 5 and 15."
+  },
+  "cost_usd": 0.0674342,
+  "turns": 10,
+  "is_error": false,
+  "result": "I handed item 11 to a person instead of picking it. It's a box tilted 50\u00b0, and none of the robot grasps on it was safe.\n\n- **Top face:** this was the only grasp on any item that passed the check. But the pad would only cover 0.39 of the face, below the 0.6 needed for a firm grip, so it could slip an",
+  "tok_out": 1295
+ },
+ {
+  "t": 43,
+  "latency_s": 13.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 5,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 5,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 15,
+     "reason": "Small 14x25x10 cm box on top of item 3: pad coverage 0.14-0.31 on every face and the pad sweep hits items 3/5. Removing it frees item 3 for a robot pick."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 15,
+   "reason": "Small 14x25x10 cm box on top of item 3: pad coverage 0.14-0.31 on every face and the pad sweep hits items 3/5. Removing it frees item 3 for a robot pick."
+  },
+  "cost_usd": 0.0503122,
+  "turns": 7,
+  "is_error": false,
+  "result": "I handed item 15 to a person; the cell accepted it. No grasp I checked on item 15 or on the upright tube (item 5) passed.\n\n- **Item 15** (small box, 0.5 kg, sitting on top of item 3): the pad covered only 0.31 of its top face and 0.14 of its front face, well under the 0.6 needed for a good grip. Bot",
+  "tok_out": 963
+ },
+ {
+  "t": 44,
+  "latency_s": 13.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 5,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 5,
+     "reason": "Upright tube, top face 19x20 cm gives pad coverage 0.27 (<0.6), so it would likely slip and fall. It also blocks the pad sweep for boxes 3 and 10."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 5,
+   "reason": "Upright tube, top face 19x20 cm gives pad coverage 0.27 (<0.6), so it would likely slip and fall. It also blocks the pad sweep for boxes 3 and 10."
+  },
+  "cost_usd": 0.049393400000000004,
+  "turns": 7,
+  "is_error": false,
+  "result": "I handed item 5 to a person. It's the upright tube at x = -0.9 m, and the cell accepted the hand-off.\n\n- **Item 5:** Only its top grasp passed, but the pad would cover just 27% of that face (under 60% grips poorly). A tube that small would likely slip and fall, and a fall costs more than a hand-off.",
+  "tok_out": 982
+ },
+ {
+  "t": 45,
+  "latency_s": 13.0,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 3,
+     "reason": "Narrow box (0.19 m wide): pad coverage on both the front and top faces is only 0.43, under the 0.6 needed for a reliable grip, so it risks being dropped."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 3,
+   "reason": "Narrow box (0.19 m wide): pad coverage on both the front and top faces is only 0.43, under the 0.6 needed for a reliable grip, so it risks being dropped."
+  },
+  "cost_usd": 0.040616400000000004,
+  "turns": 5,
+  "is_error": false,
+  "result": "I handed item 3 to a person instead of having the robot pick it.\n\n- **Why:** item 3 is a narrow box, 0.19 m wide. Grasps on both its top and its front face passed the reachability and collision checks, but the suction pad covered only 0.43 of either face. Below 0.6 the pad grips poorly. A dropped it",
+  "tok_out": 843
+ },
+ {
+  "t": 46,
+  "latency_s": 15.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "top",
+     "dv": 0.07
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "top",
+     "dv": -0.07
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 10,
+     "reason": "Narrow box (14 cm) flush against the left container wall: every pad placement sweeps into the wall and pad coverage stays at or below 0.43."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 10,
+   "reason": "Narrow box (14 cm) flush against the left container wall: every pad placement sweeps into the wall and pad coverage stays at or below 0.43."
+  },
+  "cost_usd": 0.0491006,
+  "turns": 7,
+  "is_error": false,
+  "result": "I handed item 10 to a person because the robot couldn't grip it safely.\n\nIt's the only item left in the container. It's a narrow 2.5 kg box, 14 cm wide, sitting flat against the left container wall. I checked four grasps and none passed:\n\n| Grasp | Pad coverage | Problem |\n|---|---|---|\n| Front, cen",
+  "tok_out": 1066
+ }
+]

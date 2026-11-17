@@ -1,0 +1,529 @@
+{
+ "seed": 306,
+ "method": "agent_astra_v3lift",
+ "n_boxes": 37,
+ "picked": 22,
+ "collapse_events": 6,
+ "boxes_fell": 20,
+ "left": [
+  2,
+  5,
+  9,
+  12,
+  13,
+  18,
+  20,
+  21,
+  24,
+  25,
+  27,
+  29,
+  34,
+  36,
+  37
+ ],
+ "on_floor": [
+  2,
+  5,
+  9,
+  12,
+  13,
+  18,
+  20,
+  21,
+  24,
+  25,
+  27,
+  29,
+  34,
+  36,
+  37
+ ],
+ "log": [
+  {
+   "id": 31,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 23,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 14,
+   "result": "picked",
+   "disturbed": [
+    2,
+    7,
+    9,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    34,
+    36,
+    37
+   ],
+   "fell": [
+    12,
+    19,
+    22,
+    26,
+    29,
+    34,
+    36,
+    37
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 9,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 9,
+   "result": "no_grip",
+   "disturbed": [
+    5,
+    7,
+    15,
+    16,
+    17,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "fell": [
+    15,
+    17,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 19,
+   "result": "picked",
+   "disturbed": [
+    17,
+    32,
+    33,
+    35,
+    37
+   ],
+   "fell": [
+    33
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 16,
+   "result": "picked",
+   "disturbed": [
+    21,
+    35
+   ],
+   "fell": [
+    21
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 10,
+   "result": "picked",
+   "disturbed": [
+    13,
+    21
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 35,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 28,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 32,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 11,
+   "result": "picked",
+   "disturbed": [
+    8,
+    9,
+    26,
+    30,
+    33
+   ],
+   "fell": [
+    30,
+    33
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 21,
+   "result": "handoff",
+   "kind": "bag",
+   "reason": "Top approach blocked by item 13; front approach fails IK and collides with item 13 and floor, with only 0.35 pad coverage on this tilted bag. No safe checked grasp."
+  },
+  {
+   "id": 24,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Both centred top and front grasps fail pad-sweep collision checks: top with 12 and 17; front with 25 and 36. Manual removal avoids forcing a blocked extraction."
+  },
+  {
+   "id": 8,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 29,
+   "result": "grip_lost",
+   "disturbed": [
+    12,
+    17
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 17,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 8,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 30,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 15,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 26,
+   "result": "picked",
+   "disturbed": [
+    2,
+    4,
+    6,
+    7,
+    9,
+    18,
+    20,
+    22,
+    34
+   ],
+   "fell": [
+    9,
+    22,
+    34
+   ],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  {
+   "id": 4,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 9,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": [],
+   "kind": "bag",
+   "grip_model": "model_no_grip",
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 6,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": -0.08,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  {
+   "id": 33,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.04,
+   "base_y": -2.3
+  },
+  {
+   "id": 34,
+   "result": "handoff",
+   "kind": "box",
+   "reason": "Front grasp blocked by items 2 and 22; centered and both offset top grasps collide with container wall. Remove by hand to safely clear item 5 beneath it."
+  },
+  {
+   "id": 7,
+   "result": "picked",
+   "disturbed": [
+    9
+   ],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": -0.06,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 3,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_h",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "box",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 22,
+   "result": "picked",
+   "disturbed": [],
+   "fell": [],
+   "kind": "cyl_v",
+   "grip_model": null,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  {
+   "id": 2,
+   "result": "handoff",
+   "kind": "cyl_v",
+   "reason": "Top grasps at center and inward offsets collide with container wall; front grasp collides with floor. No tested safe grasp for this fallen tube."
+  },
+  {
+   "id": 5,
+   "result": "handoff",
+   "kind": "cyl_h",
+   "reason": "All four checked grasps failed collision checks: centered and offset top grasps hit the container wall; front grasp hits wall and floor. Narrow tube also has low pad coverage."
+  }
+ ],
+ "agent": "astra",
+ "model": "gpt-6-astra",
+ "effort": "low",
+ "handed_off": [
+  2,
+  5,
+  21,
+  24,
+  34
+ ],
+ "n_handoff": 5,
+ "agent_cost_usd": 0,
+ "decision_latency_s": 57.646875,
+ "grip_model_env": "A",
+ "preview": false,
+ "preview_drift_max": null,
+ "n_preview": 0
+}

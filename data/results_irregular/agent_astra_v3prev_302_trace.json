@@ -1,0 +1,3532 @@
+[
+ {
+  "t": 0,
+  "latency_s": 118.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 39,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 39,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 36,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 36,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 36,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 36,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 412718,
+  "tok_cached": 385920,
+  "tok_out": 521,
+  "result": "Selected item 36, front-center grasp, base y = \u22122.8 m. Preview predicted no falls or disturbances. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 1,
+  "latency_s": 80.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 39,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 39,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 39,
+     "face": "front",
+     "du": 0,
+     "dv": 0.08
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 39,
+     "face": "front",
+     "du": 0,
+     "dv": 0.08,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 39,
+     "face": "front",
+     "du": 0,
+     "dv": 0.08,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 39,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.08,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 389352,
+  "tok_cached": 352000,
+  "tok_out": 571,
+  "result": "Queued item 39: front grasp, du=0, dv=0.08 m, base_y=-2.8 m. Preview predicted no falls.",
+  "stderr": null
+ },
+ {
+  "t": 2,
+  "latency_s": 65.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 38,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 38,
+     "face": "top",
+     "base_y": -1.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 38,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -1.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 38,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  "cost_usd": null,
+  "tok_in": 277116,
+  "tok_cached": 252800,
+  "tok_out": 362,
+  "result": "Accepted: item 38, top grasp, centered, base y = \u22121.8 m. Preview predicted no falls or disturbance.",
+  "stderr": null
+ },
+ {
+  "t": 3,
+  "latency_s": 97.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": -0.08
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": -0.08,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 40,
+     "face": "front",
+     "dv": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 40,
+     "reason": "Top grasp collides with item 37 and roof; front grasps at centre and raised offset collide with item 35. Removing 37 first predicts falls of 35 and 40. Hand-remove 40 to safely clear the upper stack."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 40,
+   "reason": "Top grasp collides with item 37 and roof; front grasps at centre and raised offset collide with item 35. Removing 37 first predicts falls of 35 and 40. Hand-remove 40 to safely clear the upper stack."
+  },
+  "cost_usd": null,
+  "tok_in": 449064,
+  "tok_cached": 421760,
+  "tok_out": 600,
+  "result": "Handed off item 40: checked grasps were obstructed, and removing item 37 first would drop items 35 and 40.",
+  "stderr": null
+ },
+ {
+  "t": 4,
+  "latency_s": 100.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": -0.09
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "dv": -0.09,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 35,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 35,
+     "face": "top",
+     "du": -0.12
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 35,
+     "face": "front",
+     "dv": 0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 35,
+     "reason": "Checked front center, raised front, and top grasps all collide (28 or 37/roof). Removing 37 first predicts item 35 falling. Hand removal of 35 avoids that damage and clears the upper stack."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 35,
+   "reason": "Checked front center, raised front, and top grasps all collide (28 or 37/roof). Removing 37 first predicts item 35 falling. Hand removal of 35 avoids that damage and clears the upper stack."
+  },
+  "cost_usd": null,
+  "tok_in": 495508,
+  "tok_cached": 447616,
+  "tok_out": 684,
+  "result": "Handed off item 35: tested grasps collided, and pulling 37 first would make 35 fall.",
+  "stderr": null
+ },
+ {
+  "t": 5,
+  "latency_s": 71.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 37,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 37,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 235651,
+  "tok_cached": 212736,
+  "tok_out": 287,
+  "result": "Accepted front grasp on item 37 at base y = \u22122.8 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 6,
+  "latency_s": 67.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 28,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 28,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 28,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 28,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 28,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 28,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 200571,
+  "tok_cached": 177920,
+  "tok_out": 318,
+  "result": "Accepted: item 28, top grasp, centered, base y = \u22122.3 m. Full pad coverage; preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 7,
+  "latency_s": 97.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 34,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 34,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 34,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 34,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 212105,
+  "tok_cached": 187648,
+  "tok_out": 260,
+  "result": "Selected item 34: top grasp, centered, base y = \u22122.3 m. Preview predicted no falls or disturbances. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 8,
+  "latency_s": 71.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 23,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 23,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 23,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 23,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 198939,
+  "tok_cached": 176640,
+  "tok_out": 285,
+  "result": "Accepted: item 23, front grasp, centered, base y = \u22122.8 m. Full pad coverage; preview predicted no falls. Execution pending.",
+  "stderr": null
+ },
+ {
+  "t": 9,
+  "latency_s": 89.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 30,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 16,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 30,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 30,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 362896,
+  "tok_cached": 323712,
+  "tok_out": 407,
+  "result": "Selected item 30, top grasp, base y = \u22122.3 m. Accepted; execution pending. Preview predicted no falls, but grip success is uncertain.",
+  "stderr": null
+ },
+ {
+  "t": 10,
+  "latency_s": 110.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top",
+     "du": -0.07
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 29,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 27,
+     "face": "top",
+     "du": -0.07,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 27,
+     "face": "top",
+     "du": -0.04
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 27,
+     "face": "top",
+     "du": -0.04,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 27,
+     "face": "top",
+     "du": -0.04,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 27,
+   "face": "top",
+   "du": -0.04,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 443151,
+  "tok_cached": 416128,
+  "tok_out": 584,
+  "result": "Accepted: item 27, top grasp, du \u22120.04 m, base y \u22122.3 m. Preview predicted a successful pick with no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 11,
+  "latency_s": 102.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 24,
+     "face": "front",
+     "dv": 0.1
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 24,
+     "face": "front",
+     "dv": 0.1,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 24,
+     "face": "front",
+     "dv": 0.1,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 24,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.1,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 413404,
+  "tok_cached": 389248,
+  "tok_out": 493,
+  "result": "Accepted grasp: item 24, front, dv +0.10 m, base y \u22122.8 m. Preview predicted no falls; item 31 may shift.",
+  "stderr": null
+ },
+ {
+  "t": 12,
+  "latency_s": 104.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "du": -0.08
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 22,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top",
+     "du": 0.16
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 31,
+     "face": "top",
+     "du": 0.16,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 33,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 33,
+     "reason": "Both top and front grasps collide with the container wall; top approach also fails IK. Narrow tube has low pad coverage (0.43 top, 0.27 front)."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 33,
+   "reason": "Both top and front grasps collide with the container wall; top approach also fails IK. Narrow tube has low pad coverage (0.43 top, 0.27 front)."
+  },
+  "cost_usd": null,
+  "tok_in": 487970,
+  "tok_cached": 474240,
+  "tok_out": 625,
+  "result": "Handed off item 33: both checked grasps collide with the container wall.",
+  "stderr": null
+ },
+ {
+  "t": 13,
+  "latency_s": 60.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 32,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 32,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -1.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 32,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -1.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 32,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  "cost_usd": null,
+  "tok_in": 197177,
+  "tok_cached": 175616,
+  "tok_out": 251,
+  "result": "Accepted top grasp on item 32 at base y = \u22121.8 m. Full pad coverage; preview predicted no falls.",
+  "stderr": null
+ },
+ {
+  "t": 14,
+  "latency_s": 81.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 29,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 29,
+     "face": "top",
+     "base_y": -1.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 29,
+     "face": "top",
+     "base_y": -1.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 29,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  "cost_usd": null,
+  "tok_in": 208824,
+  "tok_cached": 198656,
+  "tok_out": 250,
+  "result": "Selected item 29, top grasp, base y = \u22121.8 m. Preview predicted no falls or disturbances. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 15,
+  "latency_s": 84.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 19,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 19,
+     "face": "top",
+     "base_y": -1.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 19,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -1.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 19,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -1.8
+  },
+  "cost_usd": null,
+  "tok_in": 208411,
+  "tok_cached": 184960,
+  "tok_out": 254,
+  "result": "Accepted top grasp on item 19 at base y = -1.8 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 16,
+  "latency_s": 80.4,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": -0.09
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": 0.1
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "du": 0,
+     "dv": 0.1,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "dv": 0.06
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "du": 0,
+     "dv": 0.06,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 21,
+     "face": "top",
+     "du": 0,
+     "dv": 0.06,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 21,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.06,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 335346,
+  "tok_cached": 312704,
+  "tok_out": 490,
+  "result": "Submitted item 21 top grasp: du=0, dv=0.06 m, base_y=-2.3 m. Full pad coverage; preview predicted no falls or disturbance, but no grip. Execution pending.",
+  "stderr": null
+ },
+ {
+  "t": 17,
+  "latency_s": 70.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 20,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": false
+   }
+  ],
+  "decision": null,
+  "cost_usd": null,
+  "tok_in": 198589,
+  "tok_cached": 176640,
+  "tok_out": 260,
+  "result": "Item 25 top grasp was refused: execution recheck detected collision with item 30. No pick executed.",
+  "stderr": "Reading additional input from stdin...\n"
+ },
+ {
+  "t": 18,
+  "latency_s": 119.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 20,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "dv": -0.08
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "dv": 0.08
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "du": 0,
+     "dv": 0.08,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 25,
+     "face": "top",
+     "du": 0,
+     "dv": 0.08,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 25,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.08,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 394216,
+  "tok_cached": 355328,
+  "tok_out": 478,
+  "result": "Accepted: item 25, top grasp, du=0, dv=0.08 m, base_y=-2.3 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 19,
+  "latency_s": 82.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 20,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 20,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 31,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 31,
+     "reason": "Displaced leaning box: checked top grasp fails IK and collides with 20; front grasp also collides with 20 and has only 0.18 coverage. Preview of removing supporting item 20 predicts item 31 falling."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 31,
+   "reason": "Displaced leaning box: checked top grasp fails IK and collides with 20; front grasp also collides with 20 and has only 0.18 coverage. Preview of removing supporting item 20 predicts item 31 falling."
+  },
+  "cost_usd": null,
+  "tok_in": 305281,
+  "tok_cached": 282112,
+  "tok_out": 495,
+  "result": "Handed off item 31 to prevent its predicted fall when picking item 20.",
+  "stderr": null
+ },
+ {
+  "t": 20,
+  "latency_s": 65.4,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 20,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 20,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 20,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 20,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 194516,
+  "tok_cached": 184832,
+  "tok_out": 276,
+  "result": "Item 20 top grasp accepted at base y = \u22122.3 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 21,
+  "latency_s": 81.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 22,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 22,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 22,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 22,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 278130,
+  "tok_cached": 254592,
+  "tok_out": 342,
+  "result": "Selected item 22, front grasp, centered, base_y \u22122.8 m. Preview predicted no falls or disturbance. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 22,
+  "latency_s": 91.1,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 14,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 14,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 14,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 14,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 294966,
+  "tok_cached": 273280,
+  "tok_out": 371,
+  "result": "Submitted item 14 front grasp, centered, base y = \u22122.8 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 23,
+  "latency_s": 46.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 17,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 17,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 158867,
+  "tok_cached": 150144,
+  "tok_out": 210,
+  "result": "Selected item 17, top grasp, base y = \u22122.8 m. Full pad coverage; no supported items or sweep collisions. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 24,
+  "latency_s": 51.8,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 13,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 13,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 13,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 158703,
+  "tok_cached": 138496,
+  "tok_out": 238,
+  "result": "Submitted item 13\u2019s centered top grasp at base y = \u22122.8 m: full pad coverage, clear sweep, and nothing resting on it.",
+  "stderr": null
+ },
+ {
+  "t": 25,
+  "latency_s": 68.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 9,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 9,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 9,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 9,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 191773,
+  "tok_cached": 171392,
+  "tok_out": 256,
+  "result": "Accepted: item 9, top grasp, base y = \u22122.3 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 26,
+  "latency_s": 61.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 6,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 6,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 6,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 157280,
+  "tok_cached": 137600,
+  "tok_out": 219,
+  "result": "Accepted top grasp on item 6 at base y = \u22122.3 m. No sweep collisions or items resting on it.",
+  "stderr": null
+ },
+ {
+  "t": 27,
+  "latency_s": 316.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front",
+     "du": 0.12
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 18,
+     "face": "top",
+     "dv": 0.09
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 18,
+     "face": "top",
+     "dv": 0.09,
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 18,
+     "face": "top",
+     "du": 0,
+     "dv": 0.09,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 18,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.09,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 381890,
+  "tok_cached": 358272,
+  "tok_out": 562,
+  "result": "Accepted top grasp on item 18: du=0, dv=0.09 m, base_y=\u22122.8 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 28,
+  "latency_s": 53.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 26,
+     "face": "front",
+     "du": 0.12
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 26,
+     "reason": "Top grasp collides with container wall; front grasp shifted inward still collides with wall and supporting box 15, with only 0.14 pad coverage. Remove by hand to safely expose the stack below."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 26,
+   "reason": "Top grasp collides with container wall; front grasp shifted inward still collides with wall and supporting box 15, with only 0.14 pad coverage. Remove by hand to safely expose the stack below."
+  },
+  "cost_usd": null,
+  "tok_in": 189816,
+  "tok_cached": 169856,
+  "tok_out": 384,
+  "result": "Handed off item 26: checked grasps collided with the wall or supporting box 15.",
+  "stderr": null
+ },
+ {
+  "t": 29,
+  "latency_s": 48.0,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 15,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 15,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 15,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 166104,
+  "tok_cached": 144768,
+  "tok_out": 200,
+  "result": "Accepted top grasp on item 15 at base y = \u22122.8 m. Execution pending.",
+  "stderr": null
+ },
+ {
+  "t": 30,
+  "latency_s": 47.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 10,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 10,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 10,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 154984,
+  "tok_cached": 135936,
+  "tok_out": 209,
+  "result": "Submitted item 10\u2019s top grasp at base y = \u22122.3 m: full pad coverage, clear sweep, and nothing resting on it.",
+  "stderr": null
+ },
+ {
+  "t": 31,
+  "latency_s": 51.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 5,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 5,
+     "face": "front",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 5,
+   "face": "front",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 165770,
+  "tok_cached": 144640,
+  "tok_out": 229,
+  "result": "Selected item 5, front-center grasp at base y = \u22122.8 m. Full pad coverage, clear sweep, and no items resting on it. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 32,
+  "latency_s": 43.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 2,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 2,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 2,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 155067,
+  "tok_cached": 135936,
+  "tok_out": 247,
+  "result": "Selected item 2: top grasp at centre, base y = \u22122.3 m. Full pad coverage, no collisions or supported items. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 33,
+  "latency_s": 61.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 16,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 4,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 4,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 4,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 252812,
+  "tok_cached": 232832,
+  "tok_out": 347,
+  "result": "Selected item 4: top grasp at centre, base y = \u22122.3 m. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 34,
+  "latency_s": 84.2,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 16,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "top",
+     "du": -0.12
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 30,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 30,
+     "reason": "Front and top grasps collide with container wall, including offset top attempt. Removing supporting box 16 instead predicts three fallen items (7, 11, 30)."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 30,
+   "reason": "Front and top grasps collide with container wall, including offset top attempt. Removing supporting box 16 instead predicts three fallen items (7, 11, 30)."
+  },
+  "cost_usd": null,
+  "tok_in": 304487,
+  "tok_cached": 281856,
+  "tok_out": 429,
+  "result": "Handed off item 30: tested grasps hit the container wall; pulling box 16 would topple three items.",
+  "stderr": null
+ },
+ {
+  "t": 35,
+  "latency_s": 68.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 16,
+     "face": "front"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 16,
+     "face": "front",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "top",
+     "du": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front",
+     "du": -0.06
+    },
+    "ok": false
+   },
+   {
+    "tool": "hand_off",
+    "args": {
+     "item": 16,
+     "reason": "Top grasp collides with container wall; passing front grasp predicts items 7 and 11 falling. Grasp attempts on adjacent upper tubes are blocked. Remove box 16 by hand to avoid two falls and open access."
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "handoff",
+   "item": 16,
+   "reason": "Top grasp collides with container wall; passing front grasp predicts items 7 and 11 falling. Grasp attempts on adjacent upper tubes are blocked. Remove box 16 by hand to avoid two falls and open access."
+  },
+  "cost_usd": null,
+  "tok_in": 303160,
+  "tok_cached": 280832,
+  "tok_out": 453,
+  "result": "Handed off item 16: its top grasp was blocked, and the front-grasp preview predicted two falling items.",
+  "stderr": null
+ },
+ {
+  "t": 36,
+  "latency_s": 67.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 12,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 12,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 12,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 12,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 232461,
+  "tok_cached": 211200,
+  "tok_out": 302,
+  "result": "Selected item 12, top grasp, base y = \u22122.8 m. Preview predicted no falls or disturbances. Execution accepted.",
+  "stderr": null
+ },
+ {
+  "t": 37,
+  "latency_s": 50.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 8,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 8,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 8,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 8,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 8,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 197060,
+  "tok_cached": 176384,
+  "tok_out": 255,
+  "result": "Top grasp on item 8 accepted at base y = \u22122.8 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 38,
+  "latency_s": 41.4,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 3,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 3,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 152252,
+  "tok_cached": 134272,
+  "tok_out": 241,
+  "result": "Accepted: item 3, centered top grasp, base y = \u22122.3 m. Pad coverage 88%; no sweep collisions or items resting on it.",
+  "stderr": null
+ },
+ {
+  "t": 39,
+  "latency_s": 53.7,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 3,
+     "face": "top",
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 3,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 3,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 184033,
+  "tok_cached": 165504,
+  "tok_out": 278,
+  "result": "Accepted: item 3, top grasp, centered, base y = \u22122.3 m. Preview predicted no falls or disturbances.",
+  "stderr": null
+ },
+ {
+  "t": 40,
+  "latency_s": 61.5,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 7,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 7,
+     "face": "top",
+     "base_y": -2.8
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 7,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.8
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 7,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.8
+  },
+  "cost_usd": null,
+  "tok_in": 197257,
+  "tok_cached": 176512,
+  "tok_out": 306,
+  "result": "Accepted top grasp on item 7 at base y = \u22122.8 m. Preview predicted no falls or disturbances; execution is pending.",
+  "stderr": null
+ },
+ {
+  "t": 41,
+  "latency_s": 51.3,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 1,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 3,
+     "face": "top"
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 1,
+     "face": "top",
+     "du": -0.09,
+     "dv": -0.02
+    },
+    "ok": false
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 3,
+     "face": "top",
+     "du": 0,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 3,
+   "face": "top",
+   "du": 0.0,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 196642,
+  "tok_cached": 176000,
+  "tok_out": 312,
+  "result": "Selected item 3: centered top grasp, base y = \u22122.3 m. Accepted for execution; outcome pending.",
+  "stderr": null
+ },
+ {
+  "t": 42,
+  "latency_s": 59.6,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 1,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top"
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 1,
+     "face": "top",
+     "du": -0.12
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "front"
+    },
+    "ok": false
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 1,
+     "face": "top",
+     "du": -0.12,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 1,
+     "face": "top",
+     "du": -0.12,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 1,
+   "face": "top",
+   "du": -0.12,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 229586,
+  "tok_cached": 208640,
+  "tok_out": 334,
+  "result": "Submitted item 1\u2019s offset top grasp. Preview predicted no falls or disturbance, but grip success remains uncertain.",
+  "stderr": null
+ },
+ {
+  "t": 43,
+  "latency_s": 59.9,
+  "calls": [
+   {
+    "tool": "get_scene",
+    "args": {},
+    "ok": null
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "front",
+     "du": 0,
+     "dv": 0
+    },
+    "ok": false
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top",
+     "du": -0.07,
+     "dv": 0
+    },
+    "ok": true
+   },
+   {
+    "tool": "check_grasp",
+    "args": {
+     "item": 11,
+     "face": "top",
+     "du": -0.1,
+     "dv": 0.04
+    },
+    "ok": true
+   },
+   {
+    "tool": "preview_grasp",
+    "args": {
+     "item": 11,
+     "face": "top",
+     "du": -0.07,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   },
+   {
+    "tool": "execute_grasp",
+    "args": {
+     "item": 11,
+     "face": "top",
+     "du": -0.07,
+     "dv": 0,
+     "base_y": -2.3
+    },
+    "ok": true
+   }
+  ],
+  "decision": {
+   "action": "execute",
+   "item": 11,
+   "face": "top",
+   "du": -0.07,
+   "dv": 0.0,
+   "base_y": -2.3
+  },
+  "cost_usd": null,
+  "tok_in": 214000,
+  "tok_cached": 195584,
+  "tok_out": 367,
+  "result": "Accepted item 11\u2019s top grasp: du \u22120.07 m, dv 0, base_y \u22122.3 m. Preview predicted no falls or disturbances; execution is pending.",
+  "stderr": null
+ }
+]

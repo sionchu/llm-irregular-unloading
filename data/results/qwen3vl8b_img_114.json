@@ -1,0 +1,332 @@
+{
+ "seed": 114,
+ "method": "qwen3vl8b_img",
+ "n_boxes": 41,
+ "picked": 4,
+ "collapse_events": 4,
+ "boxes_fell": 35,
+ "left": [
+  3,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41
+ ],
+ "on_floor": [
+  3,
+  6,
+  7,
+  8,
+  10,
+  11,
+  15,
+  16,
+  19,
+  23,
+  24,
+  27,
+  34,
+  38,
+  40,
+  41
+ ],
+ "log": [
+  {
+   "id": 1,
+   "result": "picked",
+   "disturbed": [
+    8,
+    11,
+    16,
+    23,
+    26,
+    32,
+    34,
+    36,
+    41
+   ],
+   "fell": [
+    8,
+    11,
+    16,
+    23,
+    26,
+    32,
+    34,
+    36,
+    41
+   ]
+  },
+  {
+   "id": 2,
+   "result": "picked",
+   "disturbed": [
+    7,
+    9,
+    13,
+    17,
+    20,
+    30,
+    31,
+    35,
+    38,
+    39,
+    40
+   ],
+   "fell": [
+    7,
+    9,
+    13,
+    17,
+    20,
+    30
+   ]
+  },
+  {
+   "id": 3,
+   "result": "no_grip",
+   "disturbed": [
+    33,
+    37,
+    38
+   ],
+   "fell": []
+  },
+  {
+   "id": 4,
+   "result": "picked",
+   "disturbed": [
+    6,
+    10,
+    15,
+    19,
+    24,
+    27,
+    31,
+    35,
+    38,
+    39,
+    40
+   ],
+   "fell": [
+    6,
+    10,
+    15,
+    19,
+    24,
+    27,
+    31,
+    35,
+    39,
+    40
+   ]
+  },
+  {
+   "id": 5,
+   "result": "picked",
+   "disturbed": [
+    14,
+    18,
+    21,
+    22,
+    25,
+    28,
+    29,
+    33,
+    37,
+    38
+   ],
+   "fell": [
+    14,
+    18,
+    21,
+    22,
+    25,
+    28,
+    29,
+    33,
+    37,
+    38
+   ]
+  },
+  {
+   "id": 6,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 7,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 8,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 9,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 10,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 11,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 12,
+   "result": "no_grip",
+   "disturbed": [],
+   "fell": []
+  },
+  {
+   "id": 13,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 14,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 15,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 16,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 17,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 18,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 19,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 20,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 21,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 22,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 23,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 24,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 25,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 26,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 27,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 28,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 29,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 30,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 31,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 32,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 33,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 34,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 35,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 36,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 37,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 38,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 39,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 40,
+   "result": "skip_displaced"
+  },
+  {
+   "id": 41,
+   "result": "skip_displaced"
+  }
+ ],
+ "decision_latency_s": 6.914222899824381
+}

@@ -1,0 +1,711 @@
+{
+ "std/opus_img": {
+  "walls": [
+   101,
+   102,
+   103,
+   104,
+   105
+  ],
+  "total": {
+   "no_grip": 4,
+   "picked": 146,
+   "fell": 13
+  },
+  "by_kind": {
+   "box": {
+    "no_grip": 4,
+    "picked": 146,
+    "fell": 13
+   }
+  }
+ },
+ "std/qwen3vl8b_img": {
+  "walls": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "total": {
+   "picked": 78,
+   "no_grip": 43,
+   "fell": 506,
+   "displaced": 63,
+   "grip_lost": 1
+  },
+  "by_kind": {
+   "box": {
+    "picked": 78,
+    "no_grip": 43,
+    "fell": 506,
+    "displaced": 63,
+    "grip_lost": 1
+   }
+  }
+ },
+ "std/rule": {
+  "walls": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "total": {
+   "no_grip": 15,
+   "displaced": 3,
+   "picked": 644,
+   "fell": 28,
+   "grip_lost": 1
+  },
+  "by_kind": {
+   "box": {
+    "no_grip": 15,
+    "displaced": 3,
+    "picked": 644,
+    "fell": 28,
+    "grip_lost": 1
+   }
+  }
+ },
+ "std/rule_noisy": {
+  "walls": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "total": {
+   "picked": 521,
+   "not_attempted": 15,
+   "no_grip": 62,
+   "fell": 82,
+   "displaced": 9,
+   "grip_lost": 2
+  },
+  "by_kind": {
+   "box": {
+    "picked": 521,
+    "not_attempted": 15,
+    "no_grip": 62,
+    "fell": 82,
+    "displaced": 9,
+    "grip_lost": 2
+   }
+  }
+ },
+ "std/smolvla": {
+  "walls": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "total": {
+   "fell": 166,
+   "no_grip": 37,
+   "picked": 433,
+   "not_attempted": 52,
+   "grip_lost": 3
+  },
+  "by_kind": {
+   "box": {
+    "fell": 166,
+    "no_grip": 37,
+    "picked": 433,
+    "not_attempted": 52,
+    "grip_lost": 3
+   }
+  }
+ },
+ "mixed/cl_rule": {
+  "walls": [
+   200,
+   201,
+   202,
+   203,
+   204
+  ],
+  "total": {
+   "no_grip": 19,
+   "picked": 127,
+   "fell": 78,
+   "grip_lost": 1
+  },
+  "by_kind": {
+   "box": {
+    "no_grip": 19,
+    "picked": 127,
+    "fell": 78,
+    "grip_lost": 1
+   }
+  }
+ },
+ "mixed/cl_stab": {
+  "walls": [
+   200,
+   201,
+   202,
+   203,
+   204
+  ],
+  "total": {
+   "no_grip": 22,
+   "picked": 129,
+   "fell": 74
+  },
+  "by_kind": {
+   "box": {
+    "no_grip": 22,
+    "picked": 129,
+    "fell": 74
+   }
+  }
+ },
+ "mixed/cl_stab_look3": {
+  "walls": [
+   200,
+   201,
+   202,
+   203
+  ],
+  "total": {
+   "picked": 139,
+   "no_grip": 16,
+   "fell": 30,
+   "grip_lost": 1
+  },
+  "by_kind": {
+   "box": {
+    "picked": 139,
+    "no_grip": 16,
+    "fell": 30,
+    "grip_lost": 1
+   }
+  }
+ },
+ "mixed/qwen3vl8b_img": {
+  "walls": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "total": {
+   "picked": 34,
+   "grip_lost": 12,
+   "fell": 312,
+   "displaced": 35,
+   "no_grip": 21
+  },
+  "by_kind": {
+   "box": {
+    "picked": 34,
+    "grip_lost": 12,
+    "fell": 312,
+    "displaced": 35,
+    "no_grip": 21
+   }
+  }
+ },
+ "mixed/rule": {
+  "walls": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "total": {
+   "displaced": 50,
+   "no_grip": 33,
+   "picked": 241,
+   "fell": 88,
+   "grip_lost": 2
+  },
+  "by_kind": {
+   "box": {
+    "displaced": 50,
+    "no_grip": 33,
+    "picked": 241,
+    "fell": 88,
+    "grip_lost": 2
+   }
+  }
+ },
+ "mixed/rule_noisy": {
+  "walls": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "total": {
+   "displaced": 49,
+   "no_grip": 32,
+   "picked": 211,
+   "fell": 108,
+   "not_attempted": 10,
+   "grip_lost": 4
+  },
+  "by_kind": {
+   "box": {
+    "displaced": 49,
+    "no_grip": 32,
+    "picked": 211,
+    "fell": 108,
+    "not_attempted": 10,
+    "grip_lost": 4
+   }
+  }
+ },
+ "mixed/smolvla": {
+  "walls": [
+   200,
+   201,
+   202,
+   203,
+   204
+  ],
+  "total": {
+   "fell": 73,
+   "not_attempted": 80,
+   "no_grip": 10,
+   "picked": 62
+  },
+  "by_kind": {
+   "box": {
+    "fell": 73,
+    "not_attempted": 80,
+    "no_grip": 10,
+    "picked": 62
+   }
+  }
+ },
+ "irregular/cl_rule": {
+  "walls": [
+   303,
+   304
+  ],
+  "total": {
+   "picked": 53,
+   "no_grip": 6,
+   "fell": 22
+  },
+  "by_kind": {
+   "box": {
+    "picked": 45,
+    "no_grip": 4,
+    "fell": 15
+   },
+   "cyl_v": {
+    "picked": 1,
+    "fell": 3
+   },
+   "cyl_h": {
+    "picked": 4,
+    "fell": 2,
+    "no_grip": 1
+   },
+   "bag": {
+    "fell": 2,
+    "picked": 3,
+    "no_grip": 1
+   }
+  }
+ },
+ "irregular/cl_stab": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304
+  ],
+  "total": {
+   "no_grip": 29,
+   "picked": 124,
+   "fell": 59
+  },
+  "by_kind": {
+   "bag": {
+    "no_grip": 6,
+    "picked": 15,
+    "fell": 3
+   },
+   "box": {
+    "picked": 93,
+    "no_grip": 18,
+    "fell": 45
+   },
+   "cyl_v": {
+    "picked": 10,
+    "fell": 3,
+    "no_grip": 2
+   },
+   "cyl_h": {
+    "fell": 8,
+    "no_grip": 3,
+    "picked": 6
+   }
+  }
+ },
+ "irregular/cl_stab_look3": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304
+  ],
+  "total": {
+   "no_grip": 28,
+   "picked": 109,
+   "fell": 74,
+   "grip_lost": 1
+  },
+  "by_kind": {
+   "bag": {
+    "no_grip": 5,
+    "picked": 9,
+    "fell": 10
+   },
+   "box": {
+    "no_grip": 20,
+    "picked": 81,
+    "fell": 54,
+    "grip_lost": 1
+   },
+   "cyl_v": {
+    "no_grip": 2,
+    "fell": 6,
+    "picked": 7
+   },
+   "cyl_h": {
+    "picked": 12,
+    "no_grip": 1,
+    "fell": 4
+   }
+  }
+ },
+ "irregular/qwen3vl8b_img": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "total": {
+   "picked": 40,
+   "displaced": 44,
+   "fell": 314,
+   "no_grip": 29,
+   "grip_lost": 6
+  },
+  "by_kind": {
+   "bag": {
+    "picked": 5,
+    "displaced": 3,
+    "fell": 49,
+    "no_grip": 2,
+    "grip_lost": 2
+   },
+   "box": {
+    "picked": 26,
+    "no_grip": 23,
+    "fell": 212,
+    "displaced": 35,
+    "grip_lost": 4
+   },
+   "cyl_v": {
+    "displaced": 4,
+    "fell": 24,
+    "picked": 5,
+    "no_grip": 1
+   },
+   "cyl_h": {
+    "fell": 29,
+    "picked": 4,
+    "no_grip": 3,
+    "displaced": 2
+   }
+  }
+ },
+ "irregular/rule": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "total": {
+   "displaced": 77,
+   "picked": 181,
+   "grip_lost": 6,
+   "fell": 132,
+   "no_grip": 37
+  },
+  "by_kind": {
+   "bag": {
+    "displaced": 9,
+    "picked": 20,
+    "grip_lost": 3,
+    "fell": 24,
+    "no_grip": 5
+   },
+   "box": {
+    "picked": 141,
+    "displaced": 49,
+    "no_grip": 25,
+    "fell": 82,
+    "grip_lost": 3
+   },
+   "cyl_v": {
+    "fell": 11,
+    "picked": 8,
+    "no_grip": 6,
+    "displaced": 9
+   },
+   "cyl_h": {
+    "picked": 12,
+    "fell": 15,
+    "displaced": 10,
+    "no_grip": 1
+   }
+  }
+ },
+ "irregular/rule_noisy": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "total": {
+   "displaced": 74,
+   "picked": 169,
+   "grip_lost": 4,
+   "fell": 145,
+   "no_grip": 39,
+   "not_attempted": 2
+  },
+  "by_kind": {
+   "bag": {
+    "displaced": 15,
+    "picked": 18,
+    "grip_lost": 3,
+    "fell": 21,
+    "no_grip": 4
+   },
+   "box": {
+    "fell": 95,
+    "displaced": 49,
+    "picked": 127,
+    "no_grip": 26,
+    "not_attempted": 2,
+    "grip_lost": 1
+   },
+   "cyl_v": {
+    "fell": 17,
+    "picked": 8,
+    "no_grip": 4,
+    "displaced": 5
+   },
+   "cyl_h": {
+    "picked": 16,
+    "fell": 12,
+    "no_grip": 5,
+    "displaced": 5
+   }
+  }
+ },
+ "irregular/rule_quad": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309
+  ],
+  "total": {
+   "no_grip": 26,
+   "picked": 190,
+   "fell": 140,
+   "displaced": 73,
+   "grip_lost": 4
+  },
+  "by_kind": {
+   "bag": {
+    "no_grip": 4,
+    "picked": 22,
+    "fell": 20,
+    "displaced": 14,
+    "grip_lost": 1
+   },
+   "box": {
+    "picked": 145,
+    "displaced": 42,
+    "no_grip": 18,
+    "fell": 92,
+    "grip_lost": 3
+   },
+   "cyl_v": {
+    "displaced": 10,
+    "fell": 13,
+    "picked": 8,
+    "no_grip": 3
+   },
+   "cyl_h": {
+    "picked": 15,
+    "fell": 15,
+    "displaced": 7,
+    "no_grip": 1
+   }
+  }
+ },
+ "irregular/smolvla": {
+  "walls": [
+   300,
+   301,
+   302,
+   303,
+   304
+  ],
+  "total": {
+   "not_attempted": 78,
+   "picked": 49,
+   "fell": 76,
+   "no_grip": 8,
+   "grip_lost": 1
+  },
+  "by_kind": {
+   "bag": {
+    "not_attempted": 6,
+    "picked": 7,
+    "fell": 11
+   },
+   "box": {
+    "not_attempted": 58,
+    "fell": 52,
+    "picked": 39,
+    "no_grip": 6,
+    "grip_lost": 1
+   },
+   "cyl_v": {
+    "not_attempted": 6,
+    "fell": 7,
+    "picked": 2
+   },
+   "cyl_h": {
+    "not_attempted": 8,
+    "fell": 6,
+    "no_grip": 2,
+    "picked": 1
+   }
+  }
+ }
+}

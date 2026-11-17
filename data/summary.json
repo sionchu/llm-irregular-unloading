@@ -1,0 +1,176 @@
+{
+ "opus_img": {
+  "label": "B Claude Opus (이미지만, 대화형)",
+  "walls": 5,
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105
+  ],
+  "boxes": 163,
+  "unloaded": 146,
+  "unload_rate": 0.896,
+  "walls_clean": 1,
+  "collapse_events_per_wall": 1.6,
+  "boxes_fell": 13,
+  "latency_s": [
+   null
+  ]
+ },
+ "qwen3vl8b_img": {
+  "label": "B' Qwen3-VL-8B 로컬 (이미지만)",
+  "walls": 20,
+  "seeds": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "boxes": 691,
+  "unloaded": 78,
+  "unload_rate": 0.113,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 4.4,
+  "boxes_fell": 509,
+  "latency_s": [
+   6.350439900066704
+  ]
+ },
+ "rule": {
+  "label": "A 규칙 (3D 인식 좌표)",
+  "walls": 20,
+  "seeds": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "boxes": 691,
+  "unloaded": 644,
+  "unload_rate": 0.932,
+  "walls_clean": 6,
+  "collapse_events_per_wall": 1.5,
+  "boxes_fell": 29,
+  "latency_s": [
+   0.000582400243729353
+  ]
+ },
+ "rule_noisy": {
+  "label": "A' 규칙 + 인식 노이즈",
+  "walls": 20,
+  "seeds": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "boxes": 691,
+  "unloaded": 521,
+  "unload_rate": 0.754,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 3.0,
+  "boxes_fell": 75,
+  "latency_s": [
+   0.000386000145226717
+  ]
+ },
+ "smolvla": {
+  "label": "C SmolVLA 미세조정 (폐루프)",
+  "walls": 20,
+  "seeds": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "boxes": 691,
+  "unloaded": 433,
+  "unload_rate": 0.627,
+  "walls_clean": 0,
+  "collapse_events_per_wall": 4.8,
+  "boxes_fell": 138,
+  "latency_s": [
+   0.8785335666366986
+  ]
+ },
+ "_common": {
+  "seeds": [
+   101,
+   102,
+   103,
+   104,
+   105
+  ],
+  "opus_img": 0.896,
+  "qwen3vl8b_img": 0.117,
+  "rule": 0.926,
+  "rule_noisy": 0.779,
+  "smolvla": 0.669
+ }
+}
